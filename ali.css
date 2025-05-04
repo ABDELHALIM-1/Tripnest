@@ -1,0 +1,573 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Condiment&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Trade+Winds&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: linear-gradient(to top, #490909, #f7bdbd54 71%);
+    height: 100vh;
+}
+/* start of header */
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #d11f1f;
+    transition: all 0.3s ease;
+}
+.cont {
+    background-color: #ffffffe0;
+    color: #d11f1f;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    position: relative;
+    animation: slide 1s ease-in-out;
+}
+.logo {
+    font-family: "Modak", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    z-index: 1;
+    margin-left: 7px;
+}
+.flage {
+    position: absolute;
+    width: 62px;
+    height: 38px;
+    padding-top: 48px;
+    z-index: -1;
+}
+ul.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 1000;
+    font-size: 17px;
+    gap: 300px;
+    padding-right: 383px
+}
+li a:hover{
+    color: black;
+    cursor:grab; 
+    transform: scale(1.3);
+}
+.dropdown{
+    position: relative;
+}
+.dropdown-menu {
+    display: none;
+    border-radius: 10%;
+    position: absolute;
+    list-style: none;
+    background-color: white;
+    padding: 10px 0;
+    z-index: 1;
+    margin: 0 -31px;
+}
+.dropdown:hover .dropdown-menu,
+.dropdown-menu:hover {
+    display: block;
+}
+.dropdown-menu li {
+    padding: 5px 15px;
+}
+.dropdown-menu li a {
+    color: black;
+    text-decoration: none;
+}
+/* end of header */
+/* start of home */
+.home{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    animation:slide 1s ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.2s;
+}
+.parentc,.parenti,.parenta{
+    background-color: rgba(240, 248, 255, 0.404);
+    border-radius: 50px;
+    box-shadow:0px 18px 20px 13px #490909;
+    display: grid;
+    flex-wrap: wrap;
+    grid-row:2;
+    height: 800px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    margin-top: 140px;
+    grid-template-areas: 
+    "x x"
+    "img1 img2"
+    "img1 img2"
+    "img3 img3"
+    "img3 img3" 
+    ;
+    transition: all 0.8s ease;
+}
+.parenta:hover,.parentc:hover,.parenti:hover{
+    transform: scale(1.2);
+}
+@keyframes slide {
+    0%{
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0);
+        opacity: 1;
+    }
+    
+}
+.img1cap{
+    grid-area: img1;
+}
+.img2cap{
+    grid-area: img2;
+}
+.img3cap{
+    grid-area: img3;
+}
+.parenti div,.parenta div,.parentc div{
+    background:linear-gradient(1deg, #00000061, transparent);
+
+}
+.img1ist{
+    grid-area: img1;
+}
+.img2ist{
+    grid-area: img2;
+}
+.img3ist{
+    grid-area: img3;
+}
+.img1ank{
+    grid-area: img1;
+}
+.img2ank{
+    grid-area: img2;
+}
+.img3ank{
+    grid-area: img3;
+}
+.img1cap,.img2cap,.img1ank,.img2ank,.img1ist,.img2ist{
+    height: 317px;
+    width: 330px;
+    margin-left: 3px;
+    border-radius: 50px;
+    opacity: 30%;
+    transition: all 1s;
+}
+.img3ank,.img3cap,.img3ist{
+    height: 317px;
+    width: 687px;
+    margin: 0px 3px 3px 3px;
+    border-radius: 50px;
+    opacity: 30%;
+    transition: all 1s;
+}
+.cap,.ist,.ank{
+    text-align: center;
+    font-family: "Condiment", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    margin-top: 37px;
+    grid-area: x;
+}
+.Cappadocia,.istanbul,.ankara{
+    color: black;
+}
+.img1cap:hover,.img2cap:hover,.img3cap:hover,.img1ist:hover,.img2ist:hover,.img3ist:hover,.img1ank:hover,.img2ank:hover,.img3ank:hover{
+    opacity: 1;
+}
+/* end of home */
+/* start of cabadocia page */
+.capp{
+    width: 100%;
+    height: 100vh;
+    opacity: 30%;
+    margin-top: 276px;
+}
+.circle{
+    background-color: #fd0000;
+    width: 900px;
+    height: 904px;
+    border-radius: 100%;
+    margin-top: -1047px;
+    margin-left: -502px;
+    opacity: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: flex-end;
+    font-size: 123px;
+    font-family: "Condiment", cursive;
+    font-weight: 400;
+    font-style: normal;
+    align-items: center;
+    position: relative;
+    transition: all 0.5s ease; 
+}
+.cap1{
+    background-color: white;
+    border-radius: 19%;
+    height: 623px;
+    width: 71%;
+    margin-left: 477px;
+    margin-top: -1122px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    font-family: "Trade Winds", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    padding: 79px;
+    font-size: 24px;
+    flex-wrap: wrap;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    position: relative;
+    transition: all 0.5s ease;
+}
+.highlights{
+    align-items: center;
+    list-style: none;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 1000;
+    font-size: 22px;
+    padding: 58px
+}
+.highlight-item i {
+    color: #d11f1f;
+    font-size: 20px;
+    line-height: 2;
+}
+.icon{
+    font-size: 30px;
+}
+.book{
+    background-color: white;
+    border-radius: 19%;
+    width: 764px;
+    height: 312px;
+    padding: 50px;
+    margin-left: 474px;
+    margin-top: -404px;
+    position: relative;
+    transition: all 0.5s ease;
+
+}
+table {
+    width: 110%;
+    border-collapse: collapse;
+    border-radius: 14%;
+    overflow: hidden;
+    margin-top: -41px;
+    margin-left: -38px;
+    height: 388px;
+    transition: all 0.5s ease;
+}
+th, td {
+    padding: 15px; 
+    text-align: center; 
+    border: 1px solid #d11f1f;
+    font-family: "Press Start 2P", system-ui; 
+    font-size: 14px; 
+    color: #333; 
+    position: relative;
+}
+td{
+    background-color: white;
+}
+th {
+    background-color: #d11f1f; 
+    color: #fff; 
+    font-weight: bold; 
+}
+tr:hover {
+    background-color: #f1f1f1; 
+    cursor: pointer;
+}
+.highlights-container{
+    position: relative;
+    background-color: white;
+    border-radius: 19%;
+    width: 37%;
+    height: 371px;
+    margin-top: 43px;
+    margin-left: 1463px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+h3{
+    font-family: 'Press Start 2P', system-ui;
+    font-weight: 1000;
+}
+.highlights-container:hover{
+    transform: scale(1.02);
+    box-shadow: #ce0000 0px -1px 20px 1px;
+}
+table:hover{
+    transform: scale(1.02);
+    box-shadow: #ce0000 0px -1px 20px 1px;
+}
+.cap1:hover{
+    transform: scale(1.02);
+    box-shadow: #ce0000 0px -1px 20px 1px;
+}
+.circle:hover{
+    transform: scale(1.02);
+    box-shadow: #ce0000 0px -1px 20px 1px;
+}
+/* end of cabadocia page */
+/* start of istanbul page */
+.istp{
+    width: 100%;
+    height: 100vh;
+    opacity: 30%;
+    margin-top: 18px;
+}
+.circle2 {
+    background-color: #fd0000;
+     width: 900px;
+    height: 904px;
+    border-radius: 50%;
+     display: flex;
+     flex-wrap: nowrap;
+    justify-content: center;
+    font-size: 123px;
+     font-family: "Condiment", cursive;
+    font-weight: 400;
+     font-style: normal;
+     align-items: flex-end;
+     position: relative;
+     transition: all 0.5s ease;
+     margin: 0 auto;
+     margin-top: -1813px;
+    clip-path: inset(55% 0 0 0);
+}
+ .ist1{
+    background-color: white;
+    border-radius: 19%;
+    height: 905px;
+    width: 31%;
+    margin: -176px 11px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    font-family: "Trade Winds", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    padding: 79px;
+    font-size: larger;
+    position: relative;
+    transition: all 0.5s ease;
+} 
+.highlights2{
+    align-items: center;
+    list-style: none;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 1000;
+    font-size: 27px;
+    padding: 58px
+}
+.highlights-container2{
+    position: relative;
+    background-color: white;
+    border-radius: 19%;
+    width: 37%;
+    height: 480px;
+    margin-top: -1050px;
+    margin-left: 1555px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+.highlight-item i {
+    color: #d11f1f;
+    font-size: 20px;
+    line-height: 2;
+}
+.highlight-item .p {
+    width: 50px; 
+    height: auto; 
+    border-radius: 5px;
+    transition: all 0.5s ease; 
+}
+.highlight-item:hover .p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%; 
+    border-radius:19%; 
+    z-index: 0; 
+    transition: all 0.5s ease;
+}
+.highlights-container2:hover{
+    transform: scale(1.02);
+    box-shadow: #ce0000 0px -1px 20px 1px;
+}
+.book2{
+    background-color: white;
+    border-radius: 19%;
+    width: 764px;
+    height: 312px;
+    padding: 50px;
+    margin-left: 1615px;
+    margin-top: 54px;
+    position: relative;
+    transition: all 0.5s ease;
+} 
+.ist1:hover{
+    transform: scale(1.02);
+    box-shadow: #ce0000 0px -1px 20px 1px;
+}
+.circle2:hover{
+    transform: scale(1.02);
+    box-shadow: #ce0000 0px -1px 20px 1px;
+}
+/* end of istanbul page */
+/* start of ankara page */
+.ankp{
+    width: 100%;
+    height: 99vh;
+    opacity: 30%;
+    margin-top: 84px;
+}
+.circle3{
+    background-color: #fd0000;
+    width: 900px;
+    height: 904px;
+    border-radius: 100%;
+    margin-top: -1047px;
+    margin-left: -502px;
+    opacity: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: flex-end;
+    font-size: 123px;
+    font-family: "Condiment", cursive;
+    font-weight: 400;
+    font-style: normal;
+    align-items: center;
+    position: relative;
+    transition: all 0.5s ease;  
+}
+.ank1{
+    background-color: white;
+    border-radius: 19%;
+    height: 800px;
+    width: 31%;
+    margin: -1031px 1550px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    font-family: "Trade Winds", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    padding: 79px;
+    font-size: larger;
+    position: relative;
+    transition: all 0.5s ease;
+} 
+.highlights3{
+    align-items: center;
+    list-style: none;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 1000;
+    font-size: 27px;
+    padding: 58px
+}
+.highlights-container3{
+    position: relative;
+    background-color: white;
+    border-radius: 19%;
+    width: 36%;
+    height: 480px;
+    margin-top: 78px;
+    margin-left: 520px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease
+}
+.highlight-item i {
+    color: #d11f1f;
+    font-size: 20px;
+    line-height: 2;
+}
+.highlight-item .p {
+    width: 50px; 
+    height: auto; 
+    border-radius: 5px;
+    transition: all 0.5s ease; 
+}
+.highlight-item:hover .p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%; 
+    border-radius:19%; 
+    z-index: 0; 
+    transition: all 0.5s ease;
+}
+.highlights-container3:hover{
+    
+    box-shadow: #ce0000 0px -1px 20px 1px;
+}
+.book3{
+    background-color: white;
+    border-radius: 19%;
+    width: 764px;
+    height: 312px;
+    padding: 50px;
+    margin-left: 520px;
+    margin-top: 54px;
+    position: relative;
+    transition: all 0.5s ease;
+}
+.ank1:hover{
+    transform: scale(1.02);
+    box-shadow: #ce0000 0px -1px 20px 1px;
+}
+.circle3:hover{
+    transform: scale(1.02);
+    box-shadow: #ce0000 0px -1px 20px 1px;
+}
+button{
+    background-color:whitesmoke;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
