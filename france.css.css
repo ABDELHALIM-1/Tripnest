@@ -5,7 +5,7 @@
     font-family: sans-serif;
 }
 .header{
-   background-color:#1451c2 ;
+   background-color:#000091 ;
    color: white;
    padding: 10px 20px;
    text-align: center;
@@ -16,12 +16,11 @@
    align-items: center;
    flex-direction: row;
    margin: 0%;
-   padding: 1.5%;
    justify-content: space-between;
    position: relative;
  }
  footer{
-   background-color:#1451c2;
+   background-color:#E1000F;
    color: white;
    text-align: center;
    padding: 20px;
@@ -43,9 +42,8 @@
  
  .main-login, .feedback 
  {
-   background-color: white;
-   color: #1451c2;
-   border: 2px solid #1451c2;
+   background-color: #FFFFFF;
+   color: #E1000F;
    font-weight: bold;
    border-radius: 50px;
    padding: 10px 20px;
@@ -57,15 +55,11 @@
    grid-row: inherit;
    border: none;
  }
+
 body{
-    background-color:rgb(253, 245, 245);
+    background-color:#FFFFFF;
 }
-header{
-    background-color: whitesmoke;
-    font-size: 40px;
-    text-align: center;
-    margin-top: 20px;
-}
+
 .video-container{
     display: grid;
     place-items: center;
