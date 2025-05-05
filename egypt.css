@@ -1,0 +1,421 @@
+# {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header                                                     
+{
+  /* background-color:#002366; */
+  color: white;
+  background: linear-gradient(to right, red, white, yellow , white, black);
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin: 0%;
+  padding: 1.5%;
+  justify-content: space-between;
+  position: relative;
+}
+
+footer                                                      
+{
+  background-color:#002366;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+}
+
+.logo-image                                               
+{
+  width: 180px;
+  height: 45px;
+}
+
+.footer-link                                                
+{
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.searchInput
+{
+    padding: 10px; 
+    width: 300px; 
+    font-size: 16px;
+    border-radius: 50px;
+    border: none;
+}
+
+.main-login, .feedback 
+{
+  background-color: white;
+  color: #002366;
+  border: 2px solid #002366;
+  font-weight: bold;
+  border-radius: 50px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  text-align: center;
+  text-decoration: none;
+  grid-row: inherit;
+  border: none;
+}
+
+
+
+.main-login:hover , .feedback:hover {
+    background-color:#1f1a1a;
+    color: yellow;
+    border-radius: 30px;
+    border: 1px solid rgba(16, 46, 198, 0.4);
+    transition: all 500ms; 
+} 
+
+div.vid {
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  outline: none;
+  transition: transform 0.3s ease;
+  width: 649px;
+  height: 359px;
+  border-radius: 15px;
+  grid-area: ved;
+}
+
+.vid:hover {
+  transform: scale(1.02);
+}
+
+
+
+.container {
+    display: grid;
+    grid-template-areas: "para para ved ved ved";
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.par {
+    max-width: 400px;
+    grid-area: para;
+    
+}
+
+.par h1 {
+    display: flex;
+      justify-content: center; 
+      align-items: center;
+    border-style: outset;
+    border-width: thick;
+    background-color: #1f1a1a;
+    font-size: 30px;
+    margin-top: 0;
+    color: yellow;
+    
+}
+
+.par p {
+    border-width: thick;
+    background-color: #ffffff;
+    font-size: 20px;
+    color: #555;
+    line-height: 1.6;
+    
+}
+
+@media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .vid {
+      width: 100%;
+    }
+}
+
+.wrapper {
+    perspective: 3000px;
+    display: flex;
+  gap: 20px; 
+  justify-content: center; 
+  flex-wrap: wrap;
+}
+
+.wrapper h1 {
+    font-size: 50px;
+    width: 1000px;
+    font-family: cursive;
+    
+    
+}
+
+.card {
+    width: 360px;
+    height: 530px;
+    transform-style: preserve-3d;
+    transition: transform .8s ease-in-out;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), -5px -5px 10px rgpa(0,0,0,0.05);
+    border-radius: 15px;
+}
+
+.card:hover {
+    transform: rotateY(180deg);
+}
+
+.back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 15px;
+}
+
+.front-pyramids {
+    background-image: url(a-tour-inside-the-pyramids.jpg);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 15px;
+}
+
+.front-tower {
+    background-image: url(a-tower.jpg);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 15px;
+}
+
+.front-baron {
+    background-image: url(3The_exterior_of_the_Baron_Empain_palace.jpg);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 15px;
+}
+
+.front-museum {
+    background-image: url(المتحف2.jpg);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 15px;
+}
+
+.front-azhar {
+    background-image: url(الازهرjpg.jpg);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 15px;
+}
+ 
+.front-khan {
+    background-image: url(khan.jpg);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 15px;
+}
+
+.front-vally {
+    background-image: url(Valley-of-kings-7.jpg);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 15px;
+}
+
+.front-simble {
+    background-image: url(simble.jpg);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 15px;
+}
+
+.front-karnk {
+    background-image: url(20241120015208999.jpg);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 15px;
+}
+
+.front-biblio {
+    background-image: url(2017_9_19_11_26_51_9.jpg);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 15px;
+}
+
+.front-qaitbay {
+    background-image: url(images.jpg);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 15px;
+}
+
+.front-corniche {
+    background-image: url(alexandria-corniche--1130x580.jpg);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 15px;
+}
+
+.front-Ras {
+    background-image: url(ras.jpg);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 15px;
+}
+
+.front-soho {
+    background-image: url(soho.jpg);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 15px;
+}
+
+.front-bay {
+    background-image: url(NaamaBay-1.jpg);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 15px;
+}
+
+.card-info {
+    position: absolute;
+    bottom: 50px;
+    left: 45px;
+    color: #ffffff;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.card-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    margin-top: 5px;
+    color: #2307f7;
+}
+
+.back {
+    background-color: #1e272e;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotateY(180deg);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.card-content {
+    text-align: center;
+    padding: 20px;
+    max-width: 300px;
+}
+
+.card-content h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.card-description {
+    font-size: 1rem;
+    color: #ccc;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.card-button {
+    background-color: #0fbcf9;
+    color: #ccc;
+    padding: 12px 24px ;
+    font-size: 1rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.card-button:hover {
+    background-color: transparent;
+    color: #0fbcf9;
+    border: 1px solid;
+}
+
+.tourism-footer {
+    background-color: #002366; 
+    color: white;
+    padding: 3px 0;
+    text-align: center;
+}
+  
+.footer-container {
+    max-width: 1000px;
+    margin: auto;
+}
+  
+.footer-links {
+    margin: 15px 0;
+}
+  
+.footer-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+  
+.footer-links a:hover {
+    text-decoration: underline;
+}
+  
+.footer-copy {
+    font-size: 14px;
+    margin-top: 10px;
+}
+  
