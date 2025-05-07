@@ -879,42 +879,58 @@ table:hover{
     }
     .parenta,.parentc,.parenti{
         grid-template-columns: repeat(2, 167px);
-        grid-template-rows: repeat(5, 114px);
+        grid-template-rows: repeat(5, 91px);
+        margin-top: 35px;
+        align-items: end;
     }
     .img1cap, .img2cap, .img1ank, .img2ank, .img1ist, .img2ist {
-        height: 219px;
+        height: 178px;
     }
     .img3ank, .img3cap, .img3ist {
-        height: 225px;
+        height: 178px;
     }
     .capinf{
-        margin-top:430px;
+        margin-top:45px;
+    }
+    .circle{
+        width: 536px;
+        height: 420px;
+        margin-top: -577px;
+        margin-left: -249px;
+        font-size: 89px;
     }
     .cap1{
-        font-size: 17px;
-        width: 52%;
+        font-size: 15px;
+        width: 65%;
         word-spacing: 0px;
         letter-spacing: 0px;
-        padding: 37px;
-        margin-left: 39%;
+        padding: 14px;
+        margin-left: 29%;
+        margin-top: -461px;
     }
     .highlights {
-        font-size: 14px;
-        padding: 25px;
+        font-size: 10px;
+        padding: 0px;
     }
     .highlights-container {
-        margin-left: 42%;
-        width: 54%;
-        padding: 0px;
-        height: 317px;
+        margin-left: 34%;
+        width: 55%;
+        padding: 20px;
+        height: 165px;
+        margin-top: 10px;
+        font-size: 10px;
     }
     .book{
-        margin-left: 35%;
-        width: 54%;
-        margin-top: 16px;
+        width: 50%;
+        margin-top: 0px;
+        background-color: unset;
     }
     .istinf{
-        margin-top: 24px;
+        margin-top: -194px;
+    }
+    table{
+        margin-left: 71px;
+        height: 201px;
     }
     .ist1{
         width: 77%;
@@ -923,7 +939,9 @@ table:hover{
         margin-top: 27px;
     }
     .circle2{
-        margin-top: -1727px;
+        margin-top: -942px;
+        width: 673px;
+        height: 556px
     }
     .highlights2{
         font-size: 14px;
