@@ -1,0 +1,372 @@
+/* @@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+
+header{
+
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   text-decoration: none;
+    width: 100%;
+    padding: 20px 100px;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    transition: 0.2s;
+    background-color:#1b6776 ;
+    text-decoration-style: none;
+    background-image:url("./photo_2025-04-30_17-08-07.jpg") ;
+    height: 800spx;
+    background-attachment:scroll;
+    font-family: "Comic Relief", system-ui;
+    background-size: cover;
+    background-position: top ;
+}
+.logo{
+
+    
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    text-indent: 200px;
+
+
+
+
+}
+.nav{
+    display: flex;
+    column-gap: 266px;
+    font-size: 35px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+   
+    }
+a{
+    text-decoration: none;
+    color: white;
+
+}
+
+
+.imgg{
+    background-image: url(./photo_2025-04-30_17-08-07.jpg);
+    position: relative;
+    bottom: -7px;
+    background-size: cover;
+    height: 1488px;
+    width: 132%;
+    left: -11px;
+
+
+}
+.vid{
+
+    position: relative;
+    left: 868px;
+    bottom: 313px;
+    width: 600px;
+    border: 3px solid black;
+    height: 601px;
+    margin: 202px;
+    transform: scale(1.7);
+}
+
+
+.Madrid-head{
+
+    position: relative;
+    font-size: 40px;
+    color: sienna;
+    width: fit-content;
+    font-family: "Comic Relief", system-ui;
+    left: 129px;
+    bottom: 10px;
+}
+
+
+
+
+h{
+
+    position: relative;
+    font-family: "Comic Relief", system-ui;
+} 
+.Madrid-ph{
+    width: 502px;
+    height: 293px;
+    position: relative;
+    border-radius: 2%;
+    left: -23px;
+    bottom: 20px;
+
+}
+.Madrid-text{
+
+    position: relative;
+    font-size: 20px;
+    font-family: "Comic Relief", system-ui;
+}
+
+.Madrid{
+    width: 460px;
+    height: 530px;
+    border: 3px solid #EEE;
+    padding: 20px;
+    transition: .5s;
+    font-family: "Comic Relief", system-ui;
+    transform: scale(1.5)
+    
+}
+
+.Barcelona{
+
+    width: 460px;
+    height: 530px;
+    border: 3px solid #EEE;
+    padding: 20px;
+    transition: 0.5s;
+    font-family: "Comic Relief", system-ui;
+    transform: scale(1.5);
+
+}
+.Barcelona-ph{
+    width: 502px;
+    height: 293px;
+    border-radius: 2%;
+    position: relative;
+    right: 21px;
+    bottom: 21px;
+}
+.Barcelona-head{
+    font-size: 40px;
+    color: rgb(45, 93, 160);
+    width: fit-content;
+    position: relative;
+    font-family: "Comic Relief", system-ui;
+    position: relative;
+    left: 94px;
+    bottom: 14px;
+}
+.Barcelona-text{
+    position: relative;
+    font-size: 20px;
+    font-family: "Comic Relief", system-ui;
+}
+.Madrid:hover{
+
+   transform:scale(1.7); 
+   
+}
+a:hover{
+    color: black;
+}
+.Barcelona:hover{
+    transform: scale(1.7);
+
+
+}
+.Seville{
+    width: 502px;
+    height: 576px;
+    position: relative;
+    border: #EEE solid 2px;
+    transition: 0.5s;
+    font-family: "Comic Relief", system-ui;
+    transform: scale(1.5);
+
+}
+
+.Seville-ph{
+    width: 502px;
+    height: 293px;
+    border-radius: 2%;
+
+
+}
+.Seville-head{
+    position: relative;
+    font-size: 45px;
+    color: tomato;
+    font-family: "Comic Relief", system-ui;
+   
+}
+.Seville-text{
+    position: relative;
+    font-size: 19px;
+    font-family: "Comic Relief", system-ui;
+ 
+}
+.Seville:hover{
+    transform: scale(1.7);
+}
+.Granada{
+
+    width: 507px;
+    height: 614px;
+    position: relative;
+    border: #EEE solid 2px;
+    transition: 0.5s;
+    transform: scale(1.5);
+}
+
+
+
+
+.Granada-ph{
+    width: 507px;
+    height: 293px;
+    border-radius: 2%;
+
+}
+.Granada-head{
+
+    position: relative;
+    font-size: 40px;
+    color: olivedrab;
+    font-family: "Comic Relief", system-ui;
+}
+.Granada-text{
+    position: relative;
+    font-size: 20px;
+    font-family: "Comic Relief", system-ui;
+}
+.Granada:hover{
+    transform: scale(1.7);
+
+}
+.Ibiza{
+
+    width: 513px;
+    position: relative;
+    height: 615px;
+    border: 2px #EEE solid;
+    transition: 0.5s;
+    transform: scale(1.5);
+}
+.Ibiza-ph{
+    width: 513px;
+    height: 300px;
+    position: relative;
+    border-radius: 2%;
+}
+.Ibiza-head{
+    position: relative;
+    font-size: 41px;
+    color: #611699;
+    font-family: "Comic Relief", system-ui;
+}
+
+
+.Ibiza-text{
+    position: relative;
+    font-size: 20px;
+    font-family: "Comic Relief", system-ui;
+}
+.Ibiza:hover{
+    transform: scale(1.7);
+}
+.San{
+    position: relative;
+    width: 513px;
+    height: 615px;
+    border: #EEE solid 2px;
+    transition: 0.5s;
+    transform: scale(1.5);
+}
+.San-ph{
+    width: 513px;
+    height: 306px;
+    border-radius: 2%;
+}
+.San-head{
+    font-family: "Comic Relief", system-ui;
+    font-size: 40px;
+    color: #c80000;
+}
+.San-text{
+    font-size: 20px;
+    font-family: "Comic Relief", system-ui;
+}
+.San:hover{
+    transform: scale(1.7);
+}
+.he{
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    font-size: 93px;
+    font-family: 'Comic Relief';
+    color: orange;
+    margin: 179px;
+    position: relative;
+    left: 2063px;
+    top: 361px;
+}
+.container{
+    
+    column-gap: 940px;
+    flex-wrap: wrap;
+    row-gap: 337px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    position: relative;
+    left: 770px;
+    margin: 20px auto;
+
+}
+
+
+
+
+
+
+
+/* <div class="vid">
+            <video   width="600px"  height="600px" controls  muted   autoplay >
+                <source src="./1403271408_tk.mp4">
+            </video>
+
+        </div>
+
+      
+            <div class="lo">
+                <img src="./mw-1920.webp" alt="" class="ph">
+                <h3 class="M">MADRID</h3>
+                
+                <p class="MM">Madrid is the capital and most populous municipality of Spain </p>
+            </div >
+      
+       
+
+    <div class="ba">
+        <img src="./_0001_shutterstock_101032684.jpg" alt="" class="phb">
+        <h3 class="bar">BARCELONA </h3>
+        <P class="BB"> Barcelona is a city with a wide range of original leisure</P>
+    </div>
+
+    <div class="SE">
+        <img src="./64bd5540716ad1b6a0c37456_Seville2_da1ad1a791.webp" alt="" class="sep">
+        <h3 class="SEV">Seville</h3>
+        <P class="S"> Seville is a city that leaves its mark, and many people define it as special.</P>
+    </div>
+    <div class="GR">
+        <img src="./42934306231_e8fa617274_c.jpg" alt="" class="GP">
+        <h3 class="G">Granada</h3>
+        <P class="GRA"> Granada was in the eleventh century the center of Sephardic civilization at its peak</P>
+    </div>
+    
+    <div class="IBZ">
+        <img src="./slideshow-1707747968.jpg" alt="" class="IB">
+        <h3 class="I">Ibiza</h3>
+        <P class="IBP">Ibiza is one of the Balearic islands, an archipelago of Spain in the Mediterranean Sea. </P>
+    </div>
+    <div class="san">
+        <img src="./que-ver-en-san-sebastian_playa-zurriola_gros_888.jpg" alt="" class="sanb">
+        <h3 class="sa">San Sebastián</h3>
+        <P class="sant">San Sebastián is a resort town on the Bay of Biscay in Spain’s mountainous Basque Country. </P>
+    </div> */
+   
