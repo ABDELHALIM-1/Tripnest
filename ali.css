@@ -865,7 +865,105 @@ table:hover{
         margin-left: 24%;
         width: 30%;
     }
-} 
+}
+@media  (min-width: 1000px) and (max-width: 1100px) {
+    .cont{
+        gap: 64px;
+    }
+    ul.navbar {
+        gap: 75px;
+        padding-right: 8%;
+    }
+    .home{
+        gap: 5px;
+    }
+    .parenta,.parentc,.parenti{
+        grid-template-columns: repeat(2, 167px);
+        grid-template-rows: repeat(5, 114px);
+    }
+    .img1cap, .img2cap, .img1ank, .img2ank, .img1ist, .img2ist {
+        height: 219px;
+    }
+    .img3ank, .img3cap, .img3ist {
+        height: 225px;
+    }
+    .capinf{
+        margin-top:430px;
+    }
+    .cap1{
+        font-size: 17px;
+        width: 52%;
+        word-spacing: 0px;
+        letter-spacing: 0px;
+        padding: 37px;
+        margin-left: 39%;
+    }
+    .highlights {
+        font-size: 14px;
+        padding: 25px;
+    }
+    .highlights-container {
+        margin-left: 42%;
+        width: 54%;
+        padding: 0px;
+        height: 317px;
+    }
+    .book{
+        margin-left: 35%;
+        width: 54%;
+        margin-top: 16px;
+    }
+    .istinf{
+        margin-top: 24px;
+    }
+    .ist1{
+        width: 77%;
+        font-size: large;
+        margin-left: 103px;
+        margin-top: 27px;
+    }
+    .circle2{
+        margin-top: -1727px;
+    }
+    .highlights2{
+        font-size: 14px;
+    }
+    .highlights-container2 {
+        margin-left: 63%;
+        width: 34%;
+        margin-top: 233px;
+        height: 421px;
+    }
+    .book2{
+        margin-left: 5%;
+        width: 0%;
+        margin-top:-407px;
+        background-color: unset;
+        padding: 0px;
+    }
+    .ank1{
+        margin-top: -1038px;
+        margin-left: 45%;
+        width: 44%;
+        font-size: large;
+        padding: 30px;
+    }
+    .highlights3{
+        font-size: 11px;
+    }
+    .highlights-container3{
+        margin-left: 51%;
+        width: 39%;
+        height: 386px;
+        margin-top: 8px;
+    }
+    .book3{
+        margin-left: 36%;
+        width: 21%;
+        background: unset;
+        margin-top: -3px;
+    }
+}
 /* @media (min-width: 1830px) and (max-width: 1880px){
     .cont{
         gap: 64px;
