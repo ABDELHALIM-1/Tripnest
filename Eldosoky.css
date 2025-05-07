@@ -15,7 +15,7 @@ header{
     transition: 0.2s;
     background-color:#1b6776 ;
     text-decoration-style: none;
-    background-image:url("./photo_2025-04-30_17-08-07.jpg") ;
+    background-image:url("./cover.jpg") ;
     height: 800spx;
     background-attachment:scroll;
     font-family: "Comic Relief", system-ui;
@@ -41,7 +41,8 @@ header{
     font-size: 35px;
     text-decoration: none;
     list-style: none;
-    box-sizing: border-box;
+    box-sizing: bor
+        der-box;
    
     }
 a{
@@ -52,7 +53,7 @@ a{
 
 
 .imgg{
-    background-image: url(./photo_2025-04-30_17-08-07.jpg);
+    background-image: url(./cover.jpg);
     position: relative;
     bottom: -7px;
     background-size: cover;
