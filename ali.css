@@ -20,9 +20,7 @@ a {
 .cont {
     background-color: #ffffffe0;
     color: #d11f1f;
-    padding: 10px 20px;
-    text-align: center;
-    font-size: 24px;
+    padding: 0.6% 0.7%;
     font-weight: bold;
     display: flex;
     align-items: center;
@@ -30,6 +28,7 @@ a {
     flex-direction: row;
     position: relative;
     animation: slide 1s ease-in-out;
+    flex-wrap: wrap;
 }
 .logo {
     font-family: "Modak", system-ui;
@@ -37,32 +36,30 @@ a {
     font-style: normal;
     font-size: 50px;
     z-index: 1;
-    margin-left: 7px;
+    margin-left: 0.6%;
 }
 .flage {
     position: absolute;
-    width: 62px;
-    height: 38px;
-    padding-top: 48px;
+    width: 57px;
+    height: 36px;
+    padding-top: 50px;
     z-index: -1;
 }
 ul.navbar {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    flex-wrap: wrap;
     list-style: none;
     font-family: "Press Start 2P", system-ui;
-    font-weight: 1000;
     font-size: 17px;
     gap: 300px;
-    padding-right: 383px
+    padding-right: 15%;
 }
-li a:hover{
+.cont a:hover{
     color: black;
     cursor:grab; 
     transform: scale(1.3);
 }
-.dropdown{
+/* .dropdown{
     position: relative;
 }
 .dropdown-menu {
@@ -85,7 +82,7 @@ li a:hover{
 .dropdown-menu li a {
     color: black;
     text-decoration: none;
-}
+} */
 /* end of header */
 /* start of home */
 .home{
@@ -101,12 +98,10 @@ li a:hover{
     border-radius: 50px;
     box-shadow:0px 18px 20px 13px #490909;
     display: grid;
-    flex-wrap: wrap;
     grid-row:2;
-    height: 800px;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns:repeat(2,300px);
     grid-template-rows: repeat(5, 1fr);
-    margin-top: 140px;
+    margin-top: 129px;
     grid-template-areas: 
     "x x"
     "img1 img2"
@@ -121,7 +116,7 @@ li a:hover{
 }
 @keyframes slide {
     0%{
-        transform: translateY(100px);
+        transform: translateY(100%);
         opacity: 0;
     }
     100%{
@@ -163,15 +158,15 @@ li a:hover{
 }
 .img1cap,.img2cap,.img1ank,.img2ank,.img1ist,.img2ist{
     height: 317px;
-    width: 330px;
-    margin-left: 3px;
+    width: 96%;
+    margin-left: 1.5%;
     border-radius: 50px;
     opacity: 30%;
-    transition: all 1s;
+    transition: all 1.5s;
 }
 .img3ank,.img3cap,.img3ist{
     height: 317px;
-    width: 687px;
+    width:99%;
     margin: 0px 3px 3px 3px;
     border-radius: 50px;
     opacity: 30%;
@@ -194,11 +189,13 @@ li a:hover{
 }
 /* end of home */
 /* start of cabadocia page */
+.capinf{
+    margin-top: 269px;
+}
 .capp{
     width: 100%;
     height: 100vh;
     opacity: 30%;
-    margin-top: 276px;
 }
 .circle{
     background-color: #fd0000;
@@ -209,9 +206,6 @@ li a:hover{
     margin-left: -502px;
     opacity: 1;
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: space-around;
     justify-content: flex-end;
     font-size: 123px;
     font-family: "Condiment", cursive;
@@ -224,23 +218,35 @@ li a:hover{
 .cap1{
     background-color: white;
     border-radius: 19%;
-    height: 623px;
+    height: fit-content;
     width: 71%;
-    margin-left: 477px;
-    margin-top: -1122px;
+    margin-left: 19%;
+    margin-top: -1000px;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
     font-family: "Trade Winds", system-ui;
     font-weight: 400;
     font-style: normal;
+    font-size: xx-large;
     padding: 79px;
     font-size: 24px;
-    flex-wrap: wrap;
     word-spacing: 2px;
     letter-spacing: 1px;
     position: relative;
+    transition: all 0.5s ease;
+}
+.highlights-container{
+    position: relative;
+    background-color: white;
+    border-radius: 19%;
+    width: 41%;
+    height: 321px;;
+    margin-top: 43px;
+    margin-left: 55%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     transition: all 0.5s ease;
 }
 .highlights{
@@ -262,11 +268,11 @@ li a:hover{
 .book{
     background-color: white;
     border-radius: 19%;
-    width: 764px;
+    width: 29%;
     height: 312px;
     padding: 50px;
-    margin-left: 474px;
-    margin-top: -404px;
+    margin-left: 21%;
+    margin-top: -367px;
     position: relative;
     transition: all 0.5s ease;
 
@@ -302,21 +308,6 @@ tr:hover {
     background-color: #f1f1f1; 
     cursor: pointer;
 }
-.highlights-container{
-    position: relative;
-    background-color: white;
-    border-radius: 19%;
-    width: 37%;
-    height: 371px;
-    margin-top: 43px;
-    margin-left: 1463px;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.5s ease;
-}
 h3{
     font-family: 'Press Start 2P', system-ui;
     font-weight: 1000;
@@ -339,46 +330,47 @@ table:hover{
 }
 /* end of cabadocia page */
 /* start of istanbul page */
+.istinf{
+    height: 100vh;
+    margin-top: 351px;
+}
 .istp{
     width: 100%;
     height: 100vh;
     opacity: 30%;
-    margin-top: 18px;
 }
 .circle2 {
     background-color: #fd0000;
-     width: 900px;
+    width: 900px;
     height: 904px;
     border-radius: 50%;
-     display: flex;
-     flex-wrap: nowrap;
+    display: flex;
     justify-content: center;
     font-size: 123px;
-     font-family: "Condiment", cursive;
+    font-family: "Condiment", cursive;
     font-weight: 400;
-     font-style: normal;
-     align-items: flex-end;
-     position: relative;
-     transition: all 0.5s ease;
-     margin: 0 auto;
-     margin-top: -1813px;
-    clip-path: inset(55% 0 0 0);
+    font-style: normal;
+    align-items: flex-end;
+    position: relative;
+    transition: all 0.5s ease;
+    margin: 0 auto;
+    margin-top: -1813px;
+    clip-path: inset(56.3% 0 0 0);
 }
  .ist1{
     background-color: white;
     border-radius: 19%;
-    height: 905px;
+    height: fit-content;
     width: 31%;
     margin: -176px 11px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     align-content: center;
     font-family: "Trade Winds", system-ui;
     font-weight: 400;
     font-style: normal;
-    padding: 79px;
-    font-size: larger;
+    padding: 44px;
+    font-size: xx-large;
     position: relative;
     transition: all 0.5s ease;
 } 
@@ -394,11 +386,11 @@ table:hover{
     position: relative;
     background-color: white;
     border-radius: 19%;
-    width: 37%;
+    width: 31%;
     height: 480px;
-    margin-top: -1050px;
-    margin-left: 1555px;
-    padding: 20px;
+    margin-top: -849px;
+    margin-left: 66%;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -433,11 +425,11 @@ table:hover{
 .book2{
     background-color: white;
     border-radius: 19%;
-    width: 764px;
+    width: 714px;
     height: 312px;
     padding: 50px;
-    margin-left: 1615px;
-    margin-top: 54px;
+    margin-left: 65%;
+    margin-top: 40px;
     position: relative;
     transition: all 0.5s ease;
 } 
@@ -453,9 +445,8 @@ table:hover{
 /* start of ankara page */
 .ankp{
     width: 100%;
-    height: 99vh;
+    height: 100vh;
     opacity: 30%;
-    margin-top: 84px;
 }
 .circle3{
     background-color: #fd0000;
@@ -481,9 +472,10 @@ table:hover{
 .ank1{
     background-color: white;
     border-radius: 19%;
-    height: 800px;
+    height:fit-content;
     width: 31%;
-    margin: -1031px 1550px;
+    margin-top: -1000px;
+    margin-left: 59%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -492,7 +484,7 @@ table:hover{
     font-weight: 400;
     font-style: normal;
     padding: 79px;
-    font-size: larger;
+    font-size: xx-large;
     position: relative;
     transition: all 0.5s ease;
 } 
@@ -508,11 +500,10 @@ table:hover{
     position: relative;
     background-color: white;
     border-radius: 19%;
-    width: 36%;
+    width: 35%;
     height: 480px;
-    margin-top: 78px;
+    margin-top: -855px;
     margin-left: 520px;
-    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -563,11 +554,375 @@ table:hover{
     transform: scale(1.02);
     box-shadow: #ce0000 0px -1px 20px 1px;
 }
-button{
-    background-color:whitesmoke;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
+/* end of ankara page */
+/* start of media queries */
+@media (min-width:2270px) and (max-width:2560px){
+    .istinf{
+        margin-top: 321px;
+    }
 }
+@media (min-width:2159px) and (max-width:2369px) {
+    .home{
+        gap: 40px;
+    }
+    .capinf{
+        margin-top: 179px;
+    }
+    .highlights-container {
+        margin-left: 55%;
+        width: 42%;
+    }
+    .istinf{
+        margin-top: 322px;
+    }
+    .circle2{
+        margin-top: -1724px;
+    }
+    .highlights-container2 {
+        margin-left: 66%;
+    }
+    .book2{
+        margin-left: 60%;
+    }
+    .highlights-container3{
+        margin-left: 22%;
+    }
+    .book3{
+        margin-left: 19%;
+    }
+}
+@media (min-width:2119px) and (max-width:2158px){
+    .cont{
+        gap: 64px;
+    }
+    .home{
+        gap: 20px;
+    }
+    .capinf{
+        margin-top: 179px;
+    }
+    .highlights-container {
+        margin-left: 55%;
+        width: 42%;
+    }
+    .istinf{
+        margin-top:325px;
+    }
+    .circle2{
+        margin-top: -1724px;
+    }
+    .highlights-container2 {
+        margin-left: 65%;
+        width: 32%;
+    }
+    .book2{
+        margin-left: 60%;
+    }
+    .highlights-container3{
+        margin-left: 21%;
+        width: 36%;
+    }
+    .book3{
+        margin-left: 22%;
+        width: 31%;
+    }
+}
+@media (min-width:2046px) and (max-width:2118px) {
+    .cont{
+        gap: 64px;
+    }
+    .home{
+        gap: 20px;
+    }
+    .capinf{
+        margin-top: 186px;
+    }
+    .highlights-container {
+        margin-left: 54%;
+        width: 44%;
+        padding: 10px;
+    }
+    .book{
+        margin-left: 20%;
+        width: 28%
+    }
+    .istinf{
+        margin-top:340px;
+    }
+    .circle2{
+        margin-top: -1724px;
+    }
+    .highlights-container2 {
+        margin-left: 65%;
+        width: 32%;
+    }
+    .book2{
+        margin-left: 60%;
+    }
+    .highlights-container3{
+        margin-left: 21%;
+        width: 36%;
+    }
+    .book3{
+        margin-left: 22%;
+        width: 31%;
+    }
+}
+@media (min-width: 2023px) and (max-width: 2045px) {
+    .cont{
+        gap: 64px;
+    }
+    .home{
+        gap: 20px;
+    }
+    .capinf{
+        margin-top:188px;
+    }
+    .highlights-container {
+        margin-left: 54%;
+        width: 44%;
+        padding: 10px;
+    }
+    .book{
+        margin-left: 20%;
+        width: 28%
+    }
+    .istinf{
+        margin-top:336px;
+    }
+    .circle2{
+        margin-top: -1724px;
+    }
+    .highlights-container2 {
+        margin-left: 65%;
+        width: 33%;
+    }
+    .book2{
+        margin-left: 60%;
+    }
+    .highlights-container3{
+        margin-left: 21%;
+        width: 36%;
+    }
+    .book3{
+        margin-left: 22%;
+        width: 31%;
+    }
+}
+@media (min-width: 1972px) and (max-width: 2022px) {
+    .cont{
+        gap: 64px;
+    }
+    .home{
+        gap: 20px;
+    }
+    .capinf{
+        margin-top: 187px;
+    }
+    .book{
+        margin-left: 20%;
+        width: 28%
+    }
+    .istinf{
+        margin-top:323px;
+    }
+    .circle2{
+        margin-top: -1724px;
+    }
+    .highlights-container2 {
+        margin-left: 65%;
+        width: 34%;
+        margin-top: -927px;
+    }
+    .book2{
+        margin-left: 60%;
+    }
+    .highlights-container3{
+        margin-left: 21%;
+        width: 36%;
+    }
+    .book3{
+        margin-left: 22%;
+        width: 30%;
+    }
+}
+@media (min-width: 1933px) and (max-width: 1971px) {
+    .cont{
+        gap: 64px;
+    }
+    ul .navbar{
+        padding-right: 10%;
+    }
+    .home{
+        gap: 12px;
+    }
+    .capinf{
+        margin-top:187px;
+        width: 102%;
+    }
+    .highlights-container {
+        margin-left: 58%;
+        width: 39%;
+        padding: 0px;
+        height: 398px;
+    }
+    .book{
+        margin-left: 22%;
+        width: 29%;
+        margin-top: -416px;
+    }
+    .istinf{
+        margin-top:329px;
+        width: 102%;
+    }
+    .ankinf{
+        width: 102%;
+    }
+    .circle2{
+        margin-top: -1724px;
+    }
+    .highlights-container2 {
+        margin-left: 61%;
+        width: 34%;
+        margin-top: -840px;
+        height: 359px;
+    }
+    .book2{
+        margin-left: 62%;
+        width: 29%;
+    }
+    .ank1{
+        margin-top: -898px;
+        margin-left: 63%;
+        width: 29%
+    }
+    .highlights-container3{
+        margin-left: 22%;
+        width: 39%;
+        height: 386px;
+    }
+    .book3{
+        margin-left: 24%;
+        width: 30%;
+    }
+}
+@media (min-width: 1900px) and (max-width: 1932px){ 
+    .cont{
+        gap: 64px;
+    }
+    ul.navbar{
+        padding-right: 5%;
+    }
+    .home{
+        gap: 12px;
+    }
+    .capinf{
+        margin-top:190px;
+        width: 102%;
+    }
+    .highlights-container {
+        margin-left: 58%;
+        width: 39%;
+        padding: 0px;
+        height: 398px
+    }
+    .book{
+        margin-left: 22%;
+        width: 29%;
+        margin-top: -416px;
+    }
+    .istinf{
+        margin-top:289px;
+        width: 102%;
+    }
+    .ankinf{
+        width: 102%;
+    }
+    .circle2{
+        margin-top: -1724px;
+    }
+    .highlights-container2 {
+        margin-left: 61%;
+        width: 34%;
+        margin-top: -840px;
+        height: 359px;
+    }
+    .book2{
+        margin-left: 62%;
+        width: 29%;
+    }
+    .ank1{
+        margin-top: -898px;
+        margin-left: 63%;
+        width: 29%
+    }
+    .highlights-container3{
+        margin-left: 22%;
+        width: 39%;
+        height: 386px;
+    }
+    .book3{
+        margin-left: 24%;
+        width: 30%;
+    }
+} 
+/* @media (min-width: 1830px) and (max-width: 1880px){
+    .cont{
+        gap: 64px;
+    }
+    ul.navbar{
+        padding-right: 5%;
+    }
+    .home{
+        gap: 12px;
+    }
+    .capinf{
+        margin-top:187px;
+        width: 102%;
+    }
+    .highlights-container {
+        margin-left: 58%;
+        width: 39%;
+        padding: 0px;
+        height: 398px
+    }
+    .book{
+        margin-left: 22%;
+        width: 29%;
+        margin-top: -416px;
+    }
+    .istinf{
+        margin-top:299px;
+        width: 102%;
+    }
+    .ankinf{
+        width: 102%;
+    }
+    .circle2{
+        margin-top: -1724px;
+    }
+    .highlights-container2 {
+        margin-left: 61%;
+        width: 34%;
+        margin-top: -840px;
+        height: 359px;
+    }
+    .book2{
+        margin-left: 62%;
+        width: 29%;
+    }
+    .ank1{
+        margin-top: -898px;
+        margin-left: 63%;
+        width: 29%
+    }
+    .highlights-container3{
+        margin-left: 22%;
+        width: 39%;
+        height: 386px;
+    }
+    .book3{
+        margin-left: 24%;
+        width: 30%;
+    }
+} */
