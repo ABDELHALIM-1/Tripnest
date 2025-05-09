@@ -266,7 +266,7 @@ ul.navbar {
     font-size: 30px;
 }
 .book{
-    background-color: white;
+    background-color:unset;
     border-radius: 19%;
     width: 29%;
     height: 312px;
@@ -290,7 +290,7 @@ table {
 th, td {
     padding: 15px; 
     text-align: center; 
-    border: 1px solid #d11f1f;
+    border: 1px solid #490909;
     font-family: "Press Start 2P", system-ui; 
     font-size: 14px; 
     color: #333; 
@@ -423,7 +423,7 @@ table:hover{
     box-shadow: #ce0000 0px -1px 20px 1px;
 }
 .book2{
-    background-color: white;
+    background-color: unset;
     border-radius: 19%;
     width: 714px;
     height: 312px;
@@ -536,7 +536,7 @@ table:hover{
     box-shadow: #ce0000 0px -1px 20px 1px;
 }
 .book3{
-    background-color: white;
+    background-color: unset;
     border-radius: 19%;
     width: 764px;
     height: 312px;
@@ -556,7 +556,7 @@ table:hover{
 }
 /* end of ankara page */
 /* start of media queries */
-@media (min-width:2270px) and (max-width:2560px){
+/* @media (min-width:2270px) and (max-width:2560px){
     .istinf{
         margin-top: 321px;
     }
@@ -865,180 +865,1933 @@ table:hover{
         margin-left: 24%;
         width: 30%;
     }
-}
-@media  (min-width: 500px) and (max-width: 1000px) {
+} */
+@media  (min-width: 1000px) and (max-width: 1100px) {
     .cont{
-        gap: 64px;
-    }
-    ul.navbar {
-        gap: 75px;
-        padding-right: 8%;
-    }
-    .home{
-        gap: 5px;
-    }
-    .parenta,.parentc,.parenti{
-        grid-template-columns: repeat(2, 167px);
-        grid-template-rows: repeat(5, 91px);
-        margin-top: 35px;
-        align-items: end;
-    }
-    .img1cap, .img2cap, .img1ank, .img2ank, .img1ist, .img2ist {
-        height: 178px;
-    }
-    .img3ank, .img3cap, .img3ist {
-        height: 178px;
-    }
-    .capinf{
-        margin-top:45px;
-    }
-    .circle{
-        width: 536px;
-        height: 420px;
-        margin-top: -577px;
-        margin-left: -249px;
-        font-size: 89px;
-    }
-    .cap1{
-        font-size: 15px;
-        width: 65%;
-        word-spacing: 0px;
-        letter-spacing: 0px;
-        padding: 14px;
-        margin-left: 29%;
-        margin-top: -461px;
-    }
-    .highlights {
-        font-size: 10px;
-        padding: 0px;
-    }
-    .highlights-container {
-        margin-left: 34%;
-        width: 55%;
-        padding: 20px;
-        height: 165px;
-        margin-top: 10px;
-        font-size: 10px;
-    }
-    .book{
-        width: 50%;
-        margin-top: 0px;
-        background-color: unset;
-    }
-    .istinf{
-        margin-top: -194px;
-    }
-    table{
-        margin-left: 71px;
-        height: 201px;
-    }
-    .ist1{
-        width: 77%;
-        font-size: large;
-        margin-left: 103px;
-        margin-top: 27px;
-    }
-    .circle2{
-        margin-top: -942px;
-        width: 673px;
-        height: 556px
-    }
-    .highlights2{
-        font-size: 14px;
-    }
-    .highlights-container2 {
-        margin-left: 63%;
-        width: 34%;
-        margin-top: 233px;
-        height: 421px;
-    }
-    .book2{
-        margin-left: 5%;
-        width: 0%;
-        margin-top:-407px;
-        background-color: unset;
-        padding: 0px;
-    }
-    .ank1{
-        margin-top: -1038px;
-        margin-left: 45%;
-        width: 44%;
-        font-size: large;
-        padding: 30px;
-    }
-    .highlights3{
-        font-size: 11px;
-    }
-    .highlights-container3{
-        margin-left: 51%;
-        width: 39%;
-        height: 386px;
-        margin-top: 8px;
-    }
-    .book3{
-        margin-left: 36%;
-        width: 21%;
-        background: unset;
-        margin-top: -3px;
-    }
-}
-/* @media (min-width: 1830px) and (max-width: 1880px){
-    .cont{
-        gap: 64px;
+        gap: 0px;
+        padding: 1.6% 0.7%;
     }
     ul.navbar{
-        padding-right: 5%;
+        padding-right: 12%;
+        font-size: 14px;
+        gap: 65px;
+    }
+    .logo{
+        font-size: 42px;
+    }
+    .flage{
+        width: 5%;
+        height: 27%;
+        padding-top: 5%;
+    }
+    .parenta, .parentc, .parenti{
+        grid-template-columns: repeat(2,128px );
+        grid-template-rows: repeat(5, 81px);
+        margin-top: 94px;
+        align-items: center;
+        border-radius: 25px;
+    }
+    .cap, .ist, .ank{
+        font-size: 36px;
+    }
+    .img1cap, .img2cap, .img1ank, .img2ank, .img1ist, .img2ist {
+        height: 160px;
+        border-radius: 12px;
+    }
+    .img3ank, .img3cap, .img3ist {
+        height: 195px;
+        border-radius: 24px;
     }
     .home{
         gap: 12px;
     }
     .capinf{
-        margin-top:187px;
-        width: 102%;
+        margin-top: 76px;
+    }
+    .circle{
+        width: 425px;
+        height: 385px;
+        margin-top: -518px;
+        margin-left: -196px;
+        font-size: 71px;
+    }
+    .cap1{
+        font-size: 14px;
+        width: 91%;
+        padding: 13px;
+        margin-left: 2%;
+        margin-top: -523px;
+        word-spacing: 0px;
+        letter-spacing: 0px;
     }
     .highlights-container {
-        margin-left: 58%;
-        width: 39%;
-        padding: 0px;
-        height: 398px
+        margin-top: 10px;
+        margin-left: 26%;
+        width: 67%;
+        padding: 11px;
+        height: 200px;
+        font-size: 18px;
     }
-    .book{
-        margin-left: 22%;
-        width: 29%;
-        margin-top: -416px;
+    .highlights {
+        font-size: 17px;
+        padding: 0px;
+    }
+    .book {
+        margin-left: 36%;
+        width: 26%;
+        margin-top: 26px;
+    }
+    table{
+        height: 162px;
+    }
+    th,td{
+        padding: 13px;
+        font-size: 64%;
     }
     .istinf{
-        margin-top:299px;
-        width: 102%;
+        margin-top: -147px;
     }
-    .ankinf{
-        width: 102%;
+    .ist1 {
+        width: 35%;
+        font-size: 16px;
+        margin-left: 5px;
+        margin-top: 11px;
+        padding: 18px;
+        height: fit-content;
     }
     .circle2{
-        margin-top: -1724px;
+        width: 451px;
+        height: 477px;
+        font-size: 78px;
+        margin-top: -949px;
+    }
+    .highlights2 {
+        font-size: 20px;
+        padding: 10px;
     }
     .highlights-container2 {
-        margin-left: 61%;
-        width: 34%;
-        margin-top: -840px;
-        height: 359px;
+        margin-left: 40%;
+        width: 55%;
+        margin-top: -360px;
+        height: 223px;
     }
     .book2{
-        margin-left: 62%;
-        width: 29%;
+        margin-left: 48%;
+        width: 4%;
+        margin-top: 52px;
+        padding: 0px;
     }
     .ank1{
-        margin-top: -898px;
-        margin-left: 63%;
-        width: 29%
+        margin-top: -532px;
+        margin-left: 1%;
+        width: 91%;
+        font-size: 13px;
+        padding: 11px;
+    }
+    .circle3{
+        width: 425px;
+        height: 385px;
+        margin-top: -518px;
+        margin-left: -196px;
+        font-size: 71px;
+    }
+    .highlights3 {
+        font-size: 18px;
+        padding: 4px;
     }
     .highlights-container3{
-        margin-left: 22%;
-        width: 39%;
-        height: 386px;
+        margin-top: 62px;
+        margin-left: 33%;
+        width: 54%;
+        height: 215px;
     }
     .book3{
-        margin-left: 24%;
+        margin-top: 63px;
+        margin-left: 25%;
         width: 30%;
+        padding: 0px;
+        height: 234px;
     }
-} */
+}
+@media  (min-width: 951px) and (max-width: 999px) {
+    .cont{
+        gap: 0px;
+        padding: 1.6% 0.7%;
+    }
+    ul.navbar{
+        padding-right: 12%;
+        font-size: 14px;
+        gap: 65px;
+    }
+    .logo{
+        font-size: 42px;
+    }
+    .flage{
+        width: 5%;
+        height: 27%;
+        padding-top: 5%;
+    }
+    .parenta, .parentc, .parenti{
+        grid-template-columns: repeat(2,128px );
+        grid-template-rows: repeat(5, 81px);
+        margin-top: 94px;
+        align-items: center;
+        border-radius: 25px;
+    }
+    .cap, .ist, .ank{
+        font-size: 36px;
+    }
+    .img1cap, .img2cap, .img1ank, .img2ank, .img1ist, .img2ist {
+        height: 160px;
+        border-radius: 12px;
+    }
+    .img3ank, .img3cap, .img3ist {
+        height: 195px;
+        border-radius: 24px;
+    }
+    .home{
+        gap: 12px;
+    }
+    .capinf{
+        margin-top: 76px;
+    }
+    .circle{
+        width: 425px;
+        height: 385px;
+        margin-top: -518px;
+        margin-left: -196px;
+        font-size: 71px;
+    }
+    .cap1{
+        font-size: 14px;
+        width: 91%;
+        padding: 13px;
+        margin-left: 2%;
+        margin-top: -523px;
+        word-spacing: 0px;
+        letter-spacing: 0px;
+    }
+    .highlights-container {
+        margin-top: 10px;
+        margin-left: 26%;
+        width: 67%;
+        padding: 11px;
+        height: 200px;
+        font-size: 18px;
+    }
+    .highlights {
+        font-size: 17px;
+        padding: 0px;
+    }
+    .book {
+        margin-left: 36%;
+        width: 26%;
+        margin-top: 26px;
+    }
+    table{
+        height: 162px;
+    }
+    th,td{
+        padding: 13px;
+        font-size: 64%;
+    }
+    .istinf{
+        margin-top: -147px;
+    }
+    .ist1 {
+        width: 35%;
+        font-size: 16px;
+        margin-left: 5px;
+        margin-top: 11px;
+        padding: 18px;
+        height: fit-content;
+    }
+    .circle2{
+        width: 451px;
+        height: 477px;
+        font-size: 78px;
+        margin-top: -949px;
+    }
+    .highlights2 {
+        font-size: 20px;
+        padding: 10px;
+    }
+    .highlights-container2 {
+        margin-left: 40%;
+        width: 55%;
+        margin-top: -360px;
+        height: 223px;
+    }
+    .book2{
+        margin-left: 48%;
+        width: 4%;
+        margin-top: 52px;
+        padding: 0px;
+    }
+    .ank1{
+        margin-top: -532px;
+        margin-left: 1%;
+        width: 91%;
+        font-size: 13px;
+        padding: 11px;
+    }
+    .circle3{
+        width: 425px;
+        height: 385px;
+        margin-top: -518px;
+        margin-left: -196px;
+        font-size: 71px;
+    }
+    .highlights3 {
+        font-size: 18px;
+        padding: 4px;
+    }
+    .highlights-container3{
+        margin-top: 62px;
+        margin-left: 33%;
+        width: 54%;
+        height: 215px;
+    }
+    .book3{
+        margin-top: 63px;
+        margin-left: 25%;
+        width: 30%;
+        padding: 0px;
+        height: 234px;
+    }
+}
+@media  (min-width: 947px) and (max-width: 950px) {
+    .cont{
+        gap: 0px;
+        padding: 1.6% 0.7%;
+    }
+    ul.navbar{
+        padding-right: 12%;
+        font-size: 14px;
+        gap: 65px;
+    }
+    .logo{
+        font-size: 42px;
+    }
+    .flage{
+        width: 5%;
+        height: 27%;
+        padding-top: 5%;
+    }
+    .parenta, .parentc, .parenti{
+        grid-template-columns: repeat(2,122px );
+        grid-template-rows: repeat(5, 81px);
+        margin-top: 94px;
+        align-items: center;
+        border-radius: 25px;
+    }
+    .cap, .ist, .ank{
+        font-size: 36px;
+    }
+    .img1cap, .img2cap, .img1ank, .img2ank, .img1ist, .img2ist {
+        height: 160px;
+        border-radius: 12px;
+    }
+    .img3ank, .img3cap, .img3ist {
+        height: 195px;
+        border-radius: 24px;
+    }
+    .home{
+        gap: 12px;
+    }
+    .capinf{
+        margin-top: 84px;
+    }
+    .circle{
+        width: 425px;
+        height: 385px;
+        margin-top: -518px;
+        margin-left: -196px;
+        font-size: 71px;
+    }
+    .cap1{
+        font-size: 14px;
+        width: 91%;
+        padding: 13px;
+        margin-left: 2%;
+        margin-top: -523px;
+        word-spacing: 0px;
+        letter-spacing: 0px;
+    }
+    .highlights-container {
+        margin-top: 10px;
+        margin-left: 26%;
+        width: 67%;
+        padding: 11px;
+        height: 200px;
+        font-size: 18px;
+    }
+    .highlights {
+        font-size: 17px;
+        padding: 0px;
+    }
+    .book {
+        margin-left: 36%;
+        width: 26%;
+        margin-top: 26px;
+    }
+    table{
+        height: 162px;
+    }
+    th,td{
+        padding: 13px;
+        font-size: 64%;
+    }
+    .istinf{
+        margin-top: -147px;
+    }
+    .ist1 {
+        width: 35%;
+        font-size: 16px;
+        margin-left: 5px;
+        margin-top: 11px;
+        padding: 18px;
+        height: fit-content;
+    }
+    .circle2{
+        width: 451px;
+        height: 477px;
+        font-size: 78px;
+        margin-top: -949px;
+    }
+    .highlights2 {
+        font-size: 20px;
+        padding: 10px;
+    }
+    .highlights-container2 {
+        margin-left: 40%;
+        width: 55%;
+        margin-top: -429px;
+        height: 223px;
+    }
+    .book2{
+        margin-left: 48%;
+        width: 4%;
+        margin-top: 52px;
+        padding: 0px;
+    }
+    .ank1{
+        margin-top: -532px;
+        margin-left: 1%;
+        width: 91%;
+        font-size: 13px;
+        padding: 11px;
+    }
+    .circle3{
+        width: 425px;
+        height: 385px;
+        margin-top: -518px;
+        margin-left: -196px;
+        font-size: 71px;
+    }
+    .highlights3 {
+        font-size: 18px;
+        padding: 4px;
+    }
+    .highlights-container3{
+        margin-top: 62px;
+        margin-left: 33%;
+        width: 54%;
+        height: 215px;
+    }
+    .book3{
+        margin-top: 63px;
+        margin-left: 25%;
+        width: 30%;
+        padding: 0px;
+        height: 234px;
+    }
+}
+@media  (min-width: 900px) and (max-width: 946px) {
+    .cont{
+        gap: 0px;
+        padding: 1.6% 0.7%;
+    }
+    ul.navbar{
+        padding-right: 12%;
+        font-size: 14px;
+        gap: 65px;
+    }
+    .logo{
+        font-size: 42px;
+    }
+    .flage{
+        width: 5%;
+        height: 27%;
+        padding-top: 5%;
+    }
+    .parenta, .parentc, .parenti{
+        grid-template-columns: repeat(2,114px );
+        grid-template-rows: repeat(5, 81px);
+        margin-top: 94px;
+        align-items: center;
+        border-radius: 25px;
+    }
+    .cap, .ist, .ank{
+        font-size: 36px;
+    }
+    .img1cap, .img2cap, .img1ank, .img2ank, .img1ist, .img2ist {
+        height: 160px;
+        border-radius: 12px;
+    }
+    .img3ank, .img3cap, .img3ist {
+        height: 195px;
+        border-radius: 24px;
+    }
+    .home{
+        gap: 12px;
+    }
+    .capinf{
+        margin-top: 84px;
+    }
+    .circle{
+        width: 425px;
+        height: 385px;
+        margin-top: -518px;
+        margin-left: -196px;
+        font-size: 71px;
+    }
+    .cap1{
+        font-size: 14px;
+        width: 91%;
+        padding: 13px;
+        margin-left: 2%;
+        margin-top: -523px;
+        word-spacing: 0px;
+        letter-spacing: 0px;
+    }
+    .highlights-container {
+        margin-top: 10px;
+        margin-left: 26%;
+        width: 67%;
+        padding: 11px;
+        height: 200px;
+        font-size: 13px;
+    }
+    .highlights {
+        font-size: 13px;
+        padding: 0px;
+    }
+    .book {
+        margin-left: 36%;
+        width: 26%;
+        margin-top: 26px;
+    }
+    table{
+        height: 162px;
+    }
+    th,td{
+        padding: 13px;
+        font-size: 64%;
+    }
+    .istinf{
+        margin-top: -163px;
+    }
+    .ist1 {
+        width: 35%;
+        font-size: 16px;
+        margin-left: 5px;
+        margin-top: 11px;
+        padding: 18px;
+        height: fit-content;
+    }
+    .circle2{
+        width: 451px;
+        height: 477px;
+        font-size: 78px;
+        margin-top: -949px;
+    }
+    .highlights2 {
+        font-size: 20px;
+        padding: 10px;
+    }
+    .highlights-container2 {
+        margin-left: 40%;
+        width: 55%;
+        margin-top: -429px;
+        height: 223px;
+    }
+    .book2{
+        margin-left: 48%;
+        width: 4%;
+        margin-top: 52px;
+        padding: 0px;
+    }
+    .ank1{
+        margin-top: -532px;
+        margin-left: 1%;
+        width: 91%;
+        font-size: 13px;
+        padding: 11px;
+    }
+    .circle3{
+        width: 425px;
+        height: 385px;
+        margin-top: -518px;
+        margin-left: -196px;
+        font-size: 71px;
+    }
+    .highlights3 {
+        font-size: 18px;
+        padding: 4px;
+    }
+    .highlights-container3{
+        margin-top: 62px;
+        margin-left: 33%;
+        width: 54%;
+        height: 215px;
+    }
+    .book3{
+        margin-top: 63px;
+        margin-left: 37%;
+        width: 30%;
+        padding: 0px;
+        height: 234px;
+    }
+}
+@media  (min-width: 844px) and (max-width: 899px) {
+    .cont{
+        gap: 0px;
+        padding: 1.6% 0.7%;
+    }
+    ul.navbar{
+        padding-right: 6%;
+        font-size: 13px;
+        gap: 65px;
+    }
+    .logo{
+        font-size: 42px;
+    }
+    .flage{
+        width: 5%;
+        height: 27%;
+        padding-top: 5%;
+    }
+    .parenta, .parentc, .parenti{
+        grid-template-columns: repeat(2,105px );
+        grid-template-rows: repeat(5, 81px);
+        margin-top: 94px;
+        align-items: center;
+        border-radius: 25px;
+    }
+    .cap, .ist, .ank{
+        font-size: 36px;
+    }
+    .img1cap, .img2cap, .img1ank, .img2ank, .img1ist, .img2ist {
+        height: 160px;
+        border-radius: 12px;
+    }
+    .img3ank, .img3cap, .img3ist {
+        height: 195px;
+        border-radius: 24px;
+    }
+    .home{
+        gap: 12px;
+    }
+    .capinf{
+        margin-top: 84px;
+    }
+    .circle{
+        width: 425px;
+        height: 385px;
+        margin-top: -518px;
+        margin-left: -196px;
+        font-size: 71px;
+    }
+    .cap1{
+        font-size: 14px;
+        width: 91%;
+        padding: 13px;
+        margin-left: 2%;
+        margin-top: -523px;
+        word-spacing: 0px;
+        letter-spacing: 0px;
+    }
+    .highlights-container {
+        margin-top: 10px;
+        margin-left: 31%;
+        width: 63%;
+        padding: 11px;
+        height: 200px;
+        font-size: 13px;
+    }
+    .highlights {
+        font-size: 13px;
+        padding: 0px;
+    }
+    .book {
+        margin-left: 36%;
+        width: 26%;
+        margin-top: 26px;
+    }
+    table{
+        height: 162px;
+    }
+    th,td{
+        padding: 13px;
+        font-size: 64%;
+    }
+    .istinf{
+        margin-top: -163px;
+    }
+    .ist1 {
+        width: 35%;
+        font-size: 16px;
+        margin-left: 5px;
+        margin-top: 11px;
+        padding: 18px;
+        height: fit-content;
+    }
+    .circle2{
+        width: 451px;
+        height: 477px;
+        font-size: 78px;
+        margin-top: -949px;
+    }
+    .highlights2 {
+        font-size: 13px;
+        padding: 10px
+    }
+    .highlights-container2 {
+        margin-left: 40%;
+        width: 55%;
+        margin-top: -429px;
+        height: 223px;
+        font-size: 13px;
+    }
+    .book2{
+        margin-left: 45%;
+        width: 4%;
+        margin-top: 52px;
+        padding: 0px;
+    }
+    .ank1{
+        margin-top: -532px;
+        margin-left: 1%;
+        width: 91%;
+        font-size: 13px;
+        padding: 11px;
+    }
+    .circle3{
+        width: 425px;
+        height: 385px;
+        margin-top: -518px;
+        margin-left: -196px;
+        font-size: 71px;
+    }
+    .highlights3 {
+        font-size: 13px;
+        padding: 4px;
+    }
+    .highlights-container3{
+        margin-top: 62px;
+        margin-left: 33%;
+        width: 54%;
+        height: 215px;
+        font-size: 13px;
+    }
+    .book3{
+        margin-top: 63px;
+        margin-left: 37%;
+        width: 30%;
+        padding: 0px;
+        height: 234px;
+    }
+}
+@media  (min-width: 825px) and (max-width: 843px) {
+    .cont{
+        gap: 0px;
+        padding: 1.6% 0.7%;
+    }
+    ul.navbar{
+        padding-right: 6%;
+        font-size: 13px;
+        gap: 65px;
+    }
+    .logo{
+        font-size: 42px;
+    }
+    .flage{
+        width: 5%;
+        height: 27%;
+        padding-top: 5%;
+    }
+    .parenta, .parentc, .parenti{
+        grid-template-columns: repeat(2,100px );
+        grid-template-rows: repeat(5, 81px);
+        margin-top: 94px;
+        align-items: center;
+        border-radius: 25px;
+    }
+    .cap, .ist, .ank{
+        font-size: 36px;
+    }
+    .img1cap, .img2cap, .img1ank, .img2ank, .img1ist, .img2ist {
+        height: 160px;
+        border-radius: 12px;
+    }
+    .img3ank, .img3cap, .img3ist {
+        height: 195px;
+        border-radius: 24px;
+    }
+    .home{
+        gap: 12px;
+    }
+    .capinf{
+        margin-top: 84px;
+    }
+    .circle{
+        width: 425px;
+        height: 385px;
+        margin-top: -518px;
+        margin-left: -196px;
+        font-size: 71px;
+    }
+    .cap1{
+        font-size: 14px;
+        width: 91%;
+        padding: 13px;
+        margin-left: 2%;
+        margin-top: -523px;
+        word-spacing: 0px;
+        letter-spacing: 0px;
+    }
+    .highlights-container {
+        margin-top: 10px;
+        margin-left: 31%;
+        width: 63%;
+        padding: 11px;
+        height: 200px;
+        font-size: 13px;
+    }
+    .highlights {
+        font-size: 13px;
+        padding: 0px;
+    }
+    .book {
+        margin-left: 36%;
+        width: 26%;
+        margin-top: 26px;
+    }
+    table{
+        height: 162px;
+    }
+    th,td{
+        padding: 8px;
+        font-size: 64%;
+    }
+    .istinf{
+        margin-top: -163px;
+    }
+    .ist1 {
+        width: 35%;
+        font-size: 15px;
+        margin-left: 5px;
+        margin-top: 11px;
+        padding: 15px;
+        height: fit-content;
+    }
+    .circle2{
+        width: 451px;
+        height: 477px;
+        font-size: 78px;
+        margin-top: -949px;
+    }
+    .highlights2 {
+        font-size: 13px;
+        padding: 10px;
+    }
+    .highlights-container2 {
+        margin-left: 40%;
+        width: 55%;
+        margin-top: -400px;
+        height: 223px;
+        font-size: 13px;
+    }
+    .book2{
+        margin-left: 45%;
+        width: 4%;
+        margin-top: 52px;
+        padding: 0px;
+    }
+    .ank1{
+        margin-top: -532px;
+        margin-left: 1%;
+        width: 91%;
+        font-size: 13px;
+        padding: 11px;
+    }
+    .circle3{
+        width: 425px;
+        height: 385px;
+        margin-top: -518px;
+        margin-left: -196px;
+        font-size: 71px;
+    }
+    .highlights3 {
+        font-size: 13px;
+        padding: 4px;
+    }
+    .highlights-container3{
+        margin-top: 62px;
+        margin-left: 33%;
+        width: 54%;
+        height: 215px;
+        font-size: 13px;
+    }
+    .book3{
+        margin-top: 63px;
+        margin-left: 37%;
+        width: 30%;
+        padding: 0px;
+        height: 234px;
+    }
+}
+@media  (min-width: 812px) and (max-width: 824px) {
+    .cont{
+        gap: 0px;
+        padding: 1.6% 0.7%;
+    }
+    ul.navbar{
+        padding-right: 6%;
+        font-size: 13px;
+        gap: 65px;
+    }
+    .logo{
+        font-size: 42px;
+    }
+    .flage{
+        width: 5%;
+        height: 27%;
+        padding-top: 5%;
+    }
+    .parenta, .parentc, .parenti{
+        grid-template-columns: repeat(2,100px );
+        grid-template-rows: repeat(5, 81px);
+        margin-top: 94px;
+        align-items: center;
+        border-radius: 25px;
+    }
+    .cap, .ist, .ank{
+        font-size: 36px;
+    }
+    .img1cap, .img2cap, .img1ank, .img2ank, .img1ist, .img2ist {
+        height: 160px;
+        border-radius: 12px;
+    }
+    .img3ank, .img3cap, .img3ist {
+        height: 195px;
+        border-radius: 24px;
+    }
+    .home{
+        gap: 12px;
+    }
+    .capinf{
+        margin-top: 84px;
+    }
+    .circle{
+        width: 425px;
+        height: 385px;
+        margin-top: -518px;
+        margin-left: -196px;
+        font-size: 71px;
+    }
+    .cap1{
+        font-size: 14px;
+        width: 91%;
+        padding: 13px;
+        margin-left: 2%;
+        margin-top: -523px;
+        word-spacing: 0px;
+        letter-spacing: 0px;
+    }
+    .highlights-container {
+        margin-top: 10px;
+        margin-left: 31%;
+        width: 63%;
+        padding: 11px;
+        height: 200px;
+        font-size: 13px;
+    }
+    .highlights {
+        font-size: 13px;
+        padding: 0px;
+    }
+    .book {
+        margin-left: 36%;
+        width: 26%;
+        margin-top: 26px;
+    }
+    table{
+        height: 162px;
+    }
+    th,td{
+        padding: 8px;
+        font-size: 64%;
+    }
+    .istinf{
+        margin-top: -163px;
+    }
+    .ist1 {
+        width: 35%;
+        font-size: 15px;
+        margin-left: 5px;
+        margin-top: 11px;
+        padding: 15px;
+        height: fit-content;
+    }
+    .circle2{
+        width: 451px;
+        height: 477px;
+        font-size: 78px;
+        margin-top: -949px;
+    }
+    .highlights2 {
+        font-size: 13px;
+        padding: 10px;
+    }
+    .highlights-container2 {
+        margin-left: 40%;
+        width: 55%;
+        margin-top: -400px;
+        height: 223px;
+        font-size: 13px;
+    }
+    .book2{
+        margin-left: 45%;
+        width: 4%;
+        margin-top: 52px;
+        padding: 0px;
+    }
+    .ank1{
+        margin-top: -532px;
+        margin-left: 1%;
+        width: 91%;
+        font-size: 13px;
+        padding: 11px;
+    }
+    .circle3{
+        width: 425px;
+        height: 385px;
+        margin-top: -518px;
+        margin-left: -196px;
+        font-size: 71px;
+    }
+    .highlights3 {
+        font-size: 13px;
+        padding: 4px;
+    }
+    .highlights-container3{
+        margin-top: 50px;
+        margin-left: 33%;
+        width: 54%;
+        height: 215px;
+        font-size: 13px;
+    }
+    .book3{
+        margin-top: 63px;
+        margin-left: 37%;
+        width: 30%;
+        padding: 0px;
+        height: 234px;
+    }
+}
+@media  (min-width: 792px) and (max-width: 811px) {
+    .cont{
+        gap: 0px;
+        padding: 1.6% 0.7%;
+    }
+    ul.navbar{
+        padding-right: 6%;
+        font-size: 13px;
+        gap: 65px;
+    }
+    .logo{
+        font-size: 42px;
+    }
+    .flage{
+        width: 5%;
+        height: 27%;
+        padding-top: 5%;
+    }
+    .parenta, .parentc, .parenti{
+        grid-template-columns: repeat(2,100px );
+        grid-template-rows: repeat(5, 81px);
+        margin-top: 94px;
+        align-items: center;
+        border-radius: 25px;
+    }
+    .cap, .ist, .ank{
+        font-size: 36px;
+    }
+    .img1cap, .img2cap, .img1ank, .img2ank, .img1ist, .img2ist {
+        height: 160px;
+        border-radius: 12px;
+    }
+    .img3ank, .img3cap, .img3ist {
+        height: 195px;
+        border-radius: 24px;
+    }
+    .home{
+        gap: 12px;
+    }
+    .capinf{
+        margin-top: 84px;
+    }
+    .circle{
+        width: 425px;
+        height: 385px;
+        margin-top: -518px;
+        margin-left: -196px;
+        font-size: 71px;
+    }
+    .cap1{
+        font-size: 13px;
+        width: 91%;
+        padding: 13px;
+        margin-left: 2%;
+        margin-top: -523px;
+        word-spacing: 0px;
+        letter-spacing: 0px;
+    }
+    .highlights-container {
+        margin-top: 10px;
+        margin-left: 31%;
+        width: 63%;
+        padding: 11px;
+        height: 200px;
+        font-size: 13px;
+    }
+    .highlights {
+        font-size: 13px;
+        padding: 0px;
+    }
+    .book {
+        margin-left: 36%;
+        width: 26%;
+        margin-top: 26px;
+    }
+    table{
+        height: 162px;
+    }
+    th,td{
+        padding: 8px;
+        font-size: 64%;
+    }
+    .istinf{
+        margin-top: -158px;
+    }
+    .ist1 {
+        width: 35%;
+        font-size: 15px;
+        margin-left: 5px;
+        margin-top: 11px;
+        padding: 15px;
+        height: fit-content;
+    }
+    .circle2{
+        width: 451px;
+        height: 477px;
+        font-size: 78px;
+        margin-top: -949px;
+    }
+    .highlights2 {
+        font-size: 13px;
+        padding: 10px;
+    }
+    .highlights-container2 {
+        margin-left: 40%;
+        width: 55%;
+        margin-top: -400px;
+        height: 223px;
+        font-size: 13px;
+    }
+    .book2{
+        margin-left: 45%;
+        width: 4%;
+        margin-top: 52px;
+        padding: 0px;
+    }
+    .ank1{
+        margin-top: -532px;
+        margin-left: 1%;
+        width: 91%;
+        font-size: 13px;
+        padding: 11px;
+    }
+    .circle3{
+        width: 425px;
+        height: 385px;
+        margin-top: -518px;
+        margin-left: -196px;
+        font-size: 71px;
+    }
+    .highlights3 {
+        font-size: 13px;
+        padding: 4px;
+    }
+    .highlights-container3{
+        margin-top: 50px;
+        margin-left: 33%;
+        width: 54%;
+        height: 215px;
+        font-size: 13px;
+    }
+    .book3{
+        margin-top: 63px;
+        margin-left: 37%;
+        width: 30%;
+        padding: 0px;
+        height: 234px;
+    }
+}
+@media  (min-width: 695px) and (max-width: 791px) {
+    .cont{
+        gap: 0px;
+        padding: 1.6% 0.7%;
+    }
+    ul.navbar{
+        padding-right: 2%;
+        font-size: 11px;
+        gap: 65px;
+    }
+    .logo{
+        font-size: 42px;
+    }
+    .flage{
+        width: 5%;
+        height: 27%;
+        padding-top: 5%;
+    }
+    .parenta, .parentc, .parenti{
+        grid-template-columns: repeat(2,100px );
+        grid-template-rows: repeat(5, 81px);
+        margin-top: 94px;
+        align-items: center;
+        border-radius: 25px;
+    }
+    .cap, .ist, .ank{
+        font-size: 36px;
+    }
+    .img1cap, .img2cap, .img1ank, .img2ank, .img1ist, .img2ist {
+        height: 160px;
+        border-radius: 12px;
+    }
+    .img3ank, .img3cap, .img3ist {
+        height: 195px;
+        border-radius: 24px;
+    }
+    .home{
+        gap: 12px;
+    }
+    .capinf{
+        margin-top: 84px;
+    }
+    .circle{
+        width: 425px;
+        height: 385px;
+        margin-top: -518px;
+        margin-left: -196px;
+        font-size: 71px;
+    }
+    .cap1{
+        font-size: 12px;
+        width: 91%;
+        padding: 13px;
+        margin-left: 2%;
+        margin-top: -541px;
+        word-spacing: 0px;
+        letter-spacing: 0px;
+    }
+    .highlights-container {
+        margin-top: 10px;
+        margin-left: 34%;
+        width: 63%;
+        padding: 11px;
+        height: 200px;
+        font-size: 13px;
+    }
+    .highlights {
+        font-size: 11px;
+        padding: 0px;
+    }
+    .book {
+        margin-left: 36%;
+        width: 26%;
+        margin-top: 26px;
+    }
+    table{
+        height: 162px;
+    }
+    th,td{
+        padding: 3px;
+        font-size: 62%;
+    }
+    .istinf{
+        margin-top: -123px;
+    }
+    .ist1 {
+        width: 35%;
+        font-size: 14.2px;
+        margin-left: 5px;
+        margin-top: 11px;
+        padding: 18px;
+        height: fit-content;
+    }
+    .circle2{
+        width: 451px;
+        height: 477px;
+        font-size: 78px;
+        margin-top: -949px;
+    }
+    .highlights2 {
+        font-size: 13px;
+        padding: 10px;
+    }
+    .highlights-container2 {
+        margin-left: 44%;
+        width: 47%;
+        margin-top: -419px;
+        height: 223px;
+        font-size: 13px;
+    }
+    .book2{
+        margin-left: 47%;
+        width: 4%;
+        margin-top: 52px;
+        padding: 0px;
+    }
+    .ank1{
+        margin-top: -532px;
+        margin-left: 1%;
+        width: 91%;
+        font-size: 13px;
+        padding: 11px;
+    }
+    .circle3{
+        width: 425px;
+        height: 385px;
+        margin-top: -518px;
+        margin-left: -196px;
+        font-size: 71px;
+    }
+    .highlights3 {
+        font-size: 13px;
+        padding: 4px;
+    }
+    .highlights-container3{
+        margin-top: 50px;
+        margin-left: 33%;
+        width: 54%;
+        height: 215px;
+        font-size: 13px;
+    }
+    .book3{
+        margin-top: 63px;
+        margin-left: 37%;
+        width: 30%;
+        padding: 0px;
+        height: 234px;
+    }
+}
+@media  (min-width: 650px) and (max-width: 694px) {
+    .cont{
+        gap: 0px;
+        padding: 1.6% 0.7%;
+    }
+    ul.navbar{
+        padding-right: 2%;
+        font-size: 9px;
+        gap: 65px;
+    }
+    .logo{
+        font-size: 42px;
+    }
+    .flage{
+        width: 5%;
+        height: 27%;
+        padding-top: 5%;
+    }
+    .parenta, .parentc, .parenti{
+        grid-template-columns: repeat(2,100px );
+        grid-template-rows: repeat(5, 81px);
+        margin-top: 94px;
+        align-items: center;
+        border-radius: 25px;
+    }
+    .cap, .ist, .ank{
+        font-size: 36px;
+    }
+    .img1cap, .img2cap, .img1ank, .img2ank, .img1ist, .img2ist {
+        height: 160px;
+        border-radius: 12px;
+    }
+    .img3ank, .img3cap, .img3ist {
+        height: 195px;
+        border-radius: 24px;
+    }
+    .home{
+        gap: 12px;
+    }
+    .capinf{
+        margin-top: 84px;
+    }
+    .circle{
+        width: 425px;
+        height: 385px;
+        margin-top: -518px;
+        margin-left: -196px;
+        font-size: 71px;
+    }
+    .cap1{
+        font-size: 12px;
+        width: 91%;
+        padding: 13px;
+        margin-left: 2%;
+        margin-top: -523px;
+        word-spacing: 0px;
+        letter-spacing: 0px;
+    }
+    .highlights-container {
+        margin-top: 10px;
+        margin-left: 36%;
+        width: 58%;
+        padding: 11px;
+        height: 200px;
+        font-size: 12px;
+    }
+    .highlights {
+        font-size: 9px;
+        padding: 0px;
+    }
+    .book {
+        margin-left: 39%;
+        width: 26%;
+        margin-top: 26px;
+    }
+    table{
+        height: 162px;
+    }
+    th,td{
+        padding: 0px;
+        font-size: 60%;
+    }
+    .istinf{
+        margin-top: -157px;
+    }
+    .ist1 {
+        width: 35%;
+        font-size: 13.5px;
+        margin-left: 5px;
+        margin-top: 11px;
+        padding: 18px;
+        height: fit-content;
+    }
+    .circle2{
+        width: 451px;
+        height: 477px;
+        font-size: 78px;
+        margin-top: -949px;
+    }
+    .highlights2 {
+        font-size: 13px;
+        padding: 10px;
+    }
+    .highlights-container2 {
+        margin-left: 44%;
+        width: 52%;
+        margin-top: -440px;
+        height: 223px;
+        font-size: 13px;
+    }
+    .book2{
+        margin-left: 47%;
+        width: 4%;
+        margin-top: 52px;
+        padding: 0px;
+    }
+    .ank1{
+        margin-top: -532px;
+        margin-left: 1%;
+        width: 91%;
+        font-size: 13px;
+        padding: 11px;
+    }
+    .circle3{
+        width: 425px;
+        height: 385px;
+        margin-top: -518px;
+        margin-left: -196px;
+        font-size: 71px;
+    }
+    .highlights3 {
+        font-size: 12px;
+        padding: 3px;
+    }
+    .highlights-container3{
+        margin-top: 25px;
+        margin-left: 41%;
+        width: 54%;
+        height: 215px;
+        font-size: 12px;
+    }
+    .book3{
+        margin-top: 63px;
+        margin-left: 37%;
+        width: 30%;
+        padding: 0px;
+        height: 234px;
+    }
+}
+@media  (min-width: 624px) and (max-width: 649px) {
+    .cont{
+        gap: 0px;
+        padding: 1.6% 0.7%;
+    }
+    ul.navbar{
+        padding-right: 1%;
+        font-size: 8px;
+        gap: 65px;
+    }
+    .logo{
+        font-size: 42px;
+    }
+    .flage{
+        width: 5%;
+        height: 27%;
+        padding-top: 5%;
+    }
+    .parenta, .parentc, .parenti{
+        grid-template-columns: repeat(2,92px );
+        grid-template-rows: repeat(5, 72px);
+        margin-top: 94px;
+        align-items: center;
+        border-radius: 25px;
+    }
+    .cap, .ist, .ank{
+        font-size: 36px;
+    }
+    .img1cap, .img2cap, .img1ank, .img2ank, .img1ist, .img2ist {
+        height: 160px;
+        border-radius: 12px;
+    }
+    .img3ank, .img3cap, .img3ist {
+        height: 195px;
+        border-radius: 24px;
+    }
+    .home{
+        gap: 12px;
+    }
+    .capinf{
+        margin-top: 140px;
+    }
+    .circle{
+        width: 425px;
+        height: 385px;
+        margin-top: -518px;
+        margin-left: -196px;
+        font-size: 71px;
+    }
+    .cap1{
+        font-size: 12px;
+        width: 91%;
+        padding: 13px;
+        margin-left: 2%;
+        margin-top: -523px;
+        word-spacing: 0px;
+        letter-spacing: 0px;
+    }
+    .highlights-container {
+        margin-top: 10px;
+        margin-left: 38%;
+        width: 56%;
+        padding: 11px;
+        height: 200px;
+        font-size: 12px;
+    }
+    .highlights {
+        font-size: 8px;
+        padding: 0px;
+    }
+    .book {
+        margin-left: 38%;
+        width: 26%;
+        margin-top: 26px;
+    }
+    table{
+        height: 162px;
+    }
+    th,td{
+        padding: 0px;
+        font-size: 56%;
+    }
+    .istinf{
+        margin-top: -164px;
+    }
+    .ist1 {
+        width: 35%;
+        font-size: 13.5px;
+        margin-left: 5px;
+        margin-top: 11px;
+        padding: 18px;
+        height: fit-content;
+    }
+    .circle2{
+        width: 451px;
+        height: 477px;
+        font-size: 78px;
+        margin-top: -949px;
+    }
+    .highlights2 {
+        font-size: 13px;
+        padding: 10px;
+    }
+    .highlights-container2 {
+        margin-left: 44%;
+        width: 52%;
+        margin-top: -440px;
+        height: 223px;
+        font-size: 13px;
+    }
+    .book2{
+        margin-left: 49%;
+        width: 4%;
+        margin-top: 52px;
+        padding: 0px;
+    }
+    .ank1{
+        margin-top: -532px;
+        margin-left: 1%;
+        width: 91%;
+        font-size: 13px;
+        padding: 11px;
+    }
+    .circle3{
+        width: 425px;
+        height: 385px;
+        margin-top: -518px;
+        margin-left: -196px;
+        font-size: 71px;
+    }
+    .highlights3 {
+        font-size: 12px;
+        padding: 3px;
+    }
+    .highlights-container3{
+        margin-top: 25px;
+        margin-left: 41%;
+        width: 54%;
+        height: 215px;
+        font-size: 12px;
+    }
+    .book3{
+        margin-top: 63px;
+        margin-left: 42%;
+        width: 30%;
+        padding: 0px;
+        height: 234px;
+    }
+}
+@media  (min-width: 550px) and (max-width: 623px) {
+    .cont{
+        gap: 0px;
+        padding: 1.6% 0.7%;
+    }
+    ul.navbar{
+        padding-right: 1%;
+        font-size: 8px;
+        gap: 65px;
+    }
+    .logo{
+        font-size: 29px;
+    }
+    .flage{
+        width: 5%;
+        height: 27%;
+        padding-top: 5%;
+    }
+    .parenta, .parentc, .parenti{
+        grid-template-columns: repeat(2,87px );
+        grid-template-rows: repeat(5, 66px);
+        margin-top: 94px;
+        align-items: center;
+        border-radius: 25px;
+    }
+    .cap, .ist, .ank{
+        font-size: 36px;
+    }
+    .img1cap, .img2cap, .img1ank, .img2ank, .img1ist, .img2ist {
+        height: 160px;
+        border-radius: 12px;
+    }
+    .img3ank, .img3cap, .img3ist {
+        height: 195px;
+        border-radius: 24px;
+    }
+    .home{
+        gap: 12px;
+    }
+    .capinf{
+        margin-top: 188px;
+    }
+    .circle{
+        width: 425px;
+        height: 385px;
+        margin-top: -518px;
+        margin-left: -196px;
+        font-size: 71px;
+    }
+    .cap1{
+        font-size: 11px;
+        width: 93%;
+        padding: 11px;
+        margin-left: 2%;
+        margin-top: -523px;
+        word-spacing: 0px;
+        letter-spacing: 0px;
+    }
+    .highlights-container {
+        margin-top: 25px;
+        margin-left: 43%;
+        width: 53%;
+        padding: 8px;
+        height: 200px;
+        font-size: 10px;
+    }
+    .highlights {
+        font-size: 6px;
+        padding: 0px;
+    }
+    .book {
+        margin-left: 38%;
+        width: 26%;
+        margin-top: 26px;
+    }
+    table{
+        height: 162px;
+    }
+    th,td{
+        padding: 0px;
+        font-size: 48%;
+    }
+    .istinf{
+        margin-top: -159px;
+    }
+    .ist1 {
+        width: 35%;
+        font-size: 12.5px;
+        margin-left: 5px;
+        margin-top: 11px;
+        padding: 18px;
+        height: fit-content;
+    }
+    .circle2{
+        width: 451px;
+        height: 477px;
+        font-size: 78px;
+        margin-top: -949px;
+    }
+    .highlights2 {
+        font-size: 10px;
+        padding: 9px;
+    }
+    .highlights-container2 {
+        margin-left: 44%;
+        width: 52%;
+        margin-top: -411px;
+        height: 223px;
+        font-size: 11px;
+    }
+    .book2{
+        margin-left: 52%;
+        width: 4%;
+        margin-top: 52px;
+        padding: 0px;
+    }
+    .ank1{
+        margin-top: -532px;
+        margin-left: 1%;
+        width: 91%;
+        font-size: 11px;
+        padding: 11px;
+    }
+    .circle3{
+        width: 425px;
+        height: 385px;
+        margin-top: -518px;
+        margin-left: -196px;
+        font-size: 71px;
+    }
+    .highlights3 {
+        font-size: 10px;
+        padding: 4px;
+    }
+    .highlights-container3{
+        margin-top: 25px;
+        margin-left: 44%;
+        width: 54%;
+        height: 215px;
+        font-size: 11px;
+    }
+    .book3{
+        margin-top: 63px;
+        margin-left: 48%;
+        width: 30%;
+        padding: 0px;
+        height: 234px;
+    }
+}
+@media  (min-width: 500px) and (max-width: 549px) {
+    .cont{
+        gap: 0px;
+        padding: 1.6% 0.7%;
+    }
+    ul.navbar{
+        padding-right: 1%;
+        font-size: 7px;
+        gap: 65px;
+    }
+    .logo{
+        font-size: 23px;
+    }
+    .flage{
+        width: 5%;
+        height: 27%;
+        padding-top: 5%;
+    }
+    .parenta, .parentc, .parenti{
+        grid-template-columns: repeat(2,74px );
+        grid-template-rows: repeat(5, 61px);
+        margin-top: 94px;
+        align-items: center;
+        border-radius: 25px;
+    }
+    .cap, .ist, .ank{
+        font-size: 36px;
+    }
+    .img1cap, .img2cap, .img1ank, .img2ank, .img1ist, .img2ist {
+        height: 160px;
+        border-radius: 12px;
+    }
+    .img3ank, .img3cap, .img3ist {
+        height: 195px;
+        border-radius: 24px;
+    }
+    .home{
+        gap: 12px;
+    }
+    .capinf{
+        margin-top: 225px;
+    }
+    .circle{
+        width: 425px;
+        height: 385px;
+        margin-top: -518px;
+        margin-left: -196px;
+        font-size: 71px;
+    }
+    .cap1{
+        font-size: 10px;
+        width: 93%;
+        padding: 11px;
+        margin-left: 2%;
+        margin-top: -523px;
+        word-spacing: 0px;
+        letter-spacing: 0px;
+    }
+    .highlights-container {
+        margin-top: 25px;
+        margin-left: 47%;
+        width: 50%;
+        padding: 8px;
+        height: 200px;
+        font-size: 9px;
+    }
+    .highlights {
+        font-size: 5px;
+        padding: 0px;
+    }
+    .book {
+        margin-left: 41%;
+        width: 26%;
+        margin-top: 26px;
+    }
+    table{
+        height: 162px;
+    }
+    th,td{
+        padding: 0px;
+        font-size: 44%;
+    }
+    .istinf{
+        margin-top:-153px;
+    }
+    .ist1 {
+        width: 35%;
+        font-size: 12px;
+        margin-left: 5px;
+        margin-top: 11px;
+        padding: 18px;
+        height: fit-content;
+    }
+    .circle2{
+        width: 451px;
+        height: 477px;
+        font-size: 78px;
+        margin-top: -949px;
+    }
+    .highlights2 {
+        font-size: 9px;
+        padding: 8px;
+    }
+    .highlights-container2 {
+        margin-left: 45%;
+        width: 49%;
+        margin-top: -411px;
+        height: 223px;
+        font-size: 11px;
+    }
+    .book2{
+        margin-left: 52%;
+        width: 4%;
+        margin-top: 52px;
+        padding: 0px;
+    }
+    .ank1{
+        margin-top: -532px;
+        margin-left: 1%;
+        width: 91%;
+        font-size: 11px;
+        padding: 11px;
+    }
+    .circle3{
+        width: 425px;
+        height: 385px;
+        margin-top: -518px;
+        margin-left: -196px;
+        font-size: 71px;
+    }
+    .highlights3 {
+        font-size: 10px;
+        padding: 4px;
+    }
+    .highlights-container3{
+        margin-top: 25px;
+        margin-left: 48%;
+        width: 51%;
+        height: 215px;
+        font-size: 11px;
+    }
+    .book3{
+        margin-top: 63px;
+        margin-left: 51%;
+        width: 30%;
+        padding: 0px;
+        height: 234px;
+    }
+}
