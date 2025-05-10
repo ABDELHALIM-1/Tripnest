@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css.css">
+        <title>Tripnest | login</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    </head>
+    <body>
+        <div class="header">
+            <a href="main.html">
+               <img src="logo-1.png" class="logo-image" alt="Logo"/>
+            </a>
+        </div>
+        <div class="login">
+            <h1 class="login-text">Login</h1>
+            <input type="email" id="email" placeholder=" Email" class="login-username" required>
+            <p id="emailError" class="error-message"></p>
+            <input type="password" id="password" placeholder=" Password" class="login-password" required>
+            <p id="passwordError" class="error-message"></p>
+            <button type="submit" id="submitbutton" class="login-button">Login</button>
+            <p>Don't have account! <a href="create-account.html" class="create_account">Create one</a></p>
+        </div>
+        <footer>
+            <p class="footer-text">© 2025 <a href="main.html" class="footer-link">Tripnest</a>. All rights reserved.</p>
+        </footer>
+    </body>
+    <script>
+    document.getElementById("submitbutton").addEventListener("click", function (e) {
+    e.preventDefault();
+
+    const email = document.getElementById("email").value.trim();
+    const password = document.getElementById("password").value.trim();
+
+    const emailError = document.getElementById("emailError");
+    const passwordError = document.getElementById("passwordError");
+
+    emailError.textContent = "";
+    passwordError.textContent = "";
+
+    let valid = true;
+
+    if (email === "") 
+    {
+      emailError.textContent = "Email requird";
+      valid = false;
+    } 
+    
+    else if (!email.includes("@") || !email.includes(".")) 
+    {
+      emailError.textContent = "Email must have @ and .";
+      valid = false;
+    }
+
+    if (password === "") 
+    {
+      passwordError.textContent = "password requird";
+      valid = false;
+    } 
+    else if (password.length < 6) 
+    {
+      passwordError.textContent = "pasword must be more than 6 char's";
+      valid = false;
+    }
+
+  if (valid) 
+  {
+    alert("You have loged on susscefully");
+  }
+});
+</script>
+</html>

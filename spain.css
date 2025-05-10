@@ -1,0 +1,115 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body 
+{
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #F1BF00;
+}
+header 
+{
+    background-color: #AA151B;
+    color: #F4F9FF;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 0%;
+    padding: 1.5%;
+    justify-content: space-between;
+    position: relative;
+}
+.login, .feedback
+{
+  color: #F1BF00;
+  background: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+  position: relative;
+  font-size: 29px;
+}
+.logo-image
+{
+  width: 180px;
+  height: 45px;
+}
+footer 
+{
+    background-color: #AA151B;
+    color: #F1BF00;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.footer-link
+{
+  color: #F1BF00;
+  text-decoration: none;
+  cursor: pointer;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.video-container{
+    display: grid;
+    place-items: center;
+    margin-top: 20px;
+}
+video{
+    width: 60%;
+    border-radius: 15px;
+}
+.madrid, .barcelona, .sevilla, .granada, .ibiza, .san{
+    width: 400px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px; 
+}
+.button{
+    background-color: #AA151B;
+    color: #F1BF00;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 50px;
+    transition: background-color 0.3s ease;
+}
+.madrid img, .barcelona img, .sevilla img, .granada img, .ibiza img, .san img{
+    width: 500px;
+    height: 300px;
+}
+.madrid-content, .barcelona-content, .sevilla-content, .granada-content, .ibiza-content, .san-content{
+    padding: 16px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.madrid-content h2, .barcelona-content h2, .sevilla-content h2, .granada-content h2, .ibiza-content h2, .san-content h2{
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+.madrid-content p, .barcelona-content p, .sevilla-content p, .granada-content p, .ibiza-content p, .san-content p{
+    font-size: 20px;
+}
+.madrid:hover, .barcelona:hover, .sevilla:hover, .granada:hover, .ibiza:hover, .san:hover{
+    transform:scale(1.1)
+}

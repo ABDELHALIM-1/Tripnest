@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css.css">
+        <title>Tripnest | Feedback</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    </head>
+    <body>
+        <div class="header">
+            <a href="main.html">
+                <img src="logo-1.png" class="logo-image" alt="Logo"/>
+            </a>
+        </div>
+        <div class="feedback">
+            <h1 class="feedback-text">Write A Feedback</h1>
+            <select name="title" id="title" class="feedback-title" required>
+                <option value="" disabled selected>Select Title</option>
+                <option value="mr">Mr</option>
+                <option value="mrs">Mrs</option>
+                <option value="pns">Prefer not to say</option>
+            </select><br>
+            <input type="text" id="username" placeholder=" Username" class="feedback-username" required>
+            <p id="usernameError" class="error-message"></p>
+            <input type="email" id="email" placeholder=" Email" class="feedback-email" required>
+            <p id="emailError" class="error-message"></p>
+            <input type="text" id="phone" placeholder=" Phone" class="feedback-phone" required>
+            <p id="phoneError" class="error-message"></p>
+            <input name="message" placeholder=" Your Message" class="feedback-message" required><br>
+            <button type="submit" id="submitbutton" class="feedback-button">Send your message</button><br>
+
+        </div>
+        <footer>
+            <p class="footer-text">© 2025 <a href="main.html" class="footer-link">Tripnest</a>. All rights reserved.</p>
+        </footer>
+    </body>
+    <script>
+    document.getElementById("submitbutton").addEventListener("click", function (e) {
+    e.preventDefault();
+
+    const username = document.getElementById("username").value.trim();
+    const email = document.getElementById("email").value.trim();
+    const phone = document.getElementById("phone").value.trim();
+
+    const usernameError = document.getElementById("usernameError");
+    const emailError = document.getElementById("emailError");
+    const phoneError = document.getElementById("phoneError");
+
+
+    usernameError.textContent = "";
+    emailError.textContent = "";
+    phoneError.textContent = "";
+
+    let valid = true;
+
+    if (username === "") 
+    {
+      usernameError.textContent = "USername requird";
+      valid = false;
+    }
+
+    if (email === "") 
+    {
+      emailError.textContent = "Email requird";
+      valid = false;
+    } 
+    
+    else if (!email.includes("@") || !email.includes(".")) 
+    {
+      emailError.textContent = "Email must have @ and .";
+      valid = false;
+    }
+
+    if (phone === "") 
+    {
+      phoneError.textContent = "phone number requird";
+      valid = false;
+    } 
+    else if (isNaN(phone) || phone.length !== 11) 
+    {
+      phoneError.textContent = "please enter correct 11 number";
+      valid = false;
+    }
+
+  if (valid) 
+  {
+    alert("You have created account susscefully");
+  }
+});
+</script>
+
+</html>

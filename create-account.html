@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css.css">
+        <title>Tripnest | create account</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    </head>
+    <body>
+        <div class="header">
+            <a href="main.html">
+                <img src="logo-1.png" class="logo-image" alt="Logo"/>
+            </a> 
+        </div>
+        <div class="create-account">
+  <h1 class="create-account-text">Create Account</h1>
+
+  <input type="text" id="username" placeholder=" Username" class="create-account-username" required>
+  <p id="usernameError" class="error-message"></p>
+  <input type="email" id="email" placeholder=" Email" class="create-account-email" required>
+  <p id="emailError" class="error-message"></p>
+  <input type="text" id="phone" placeholder=" Phone" class="create-account-phone" required>
+  <p id="phoneError" class="error-message"></p>
+  <input type="password" id="password" placeholder=" Password" class="create-account-password" required>
+  <p id="passwordError" class="error-message"></p>
+  <input type="password" id="confirmPassword" placeholder=" Confirm Password" class="create-account-password" required>
+  <p id="confirmPasswordError" class="error-message"></p>
+  <button id="submitbutton" class="create-account-button">Create Account</button>
+  <p>Already have an account! <a href="login-html.html" class="login-link">Login</a></p>
+</div>
+
+        <footer>
+            <p class="footer-text">© 2025 <a href="main.html" class="footer-link">Tripnest</a>. All rights reserved.</p>
+        </footer>
+        
+    </body>
+<script>
+    document.getElementById("submitbutton").addEventListener("click", function (e) {
+    e.preventDefault();
+
+    const username = document.getElementById("username").value.trim();
+    const email = document.getElementById("email").value.trim();
+    const phone = document.getElementById("phone").value.trim();
+    const password = document.getElementById("password").value.trim();
+    const confirmPassword = document.getElementById("confirmPassword").value.trim();
+
+    const usernameError = document.getElementById("usernameError");
+    const emailError = document.getElementById("emailError");
+    const phoneError = document.getElementById("phoneError");
+    const passwordError = document.getElementById("passwordError");
+    const confirmPasswordError = document.getElementById("confirmPasswordError");
+
+    usernameError.textContent = "";
+    emailError.textContent = "";
+    phoneError.textContent = "";
+    passwordError.textContent = "";
+    confirmPasswordError.textContent = "";
+
+    let valid = true;
+
+    if (username === "") 
+    {
+      usernameError.textContent = "USername requird";
+      valid = false;
+    }
+
+    if (email === "") 
+    {
+      emailError.textContent = "Email requird";
+      valid = false;
+    } 
+    
+    else if (!email.includes("@") || !email.includes(".")) 
+    {
+      emailError.textContent = "Email must have @ and .";
+      valid = false;
+    }
+
+    if (phone === "") 
+    {
+      phoneError.textContent = "phone number requird";
+      valid = false;
+    } 
+    else if (isNaN(phone) || phone.length !== 11) 
+    {
+      phoneError.textContent = "please enter correct 11 number";
+      valid = false;
+    }
+
+    if (password === "") 
+    {
+      passwordError.textContent = "password requird";
+      valid = false;
+    } 
+    else if (password.length < 6) 
+    {
+      passwordError.textContent = "pasword must be more than 6 char's";
+      valid = false;
+    }
+
+  if (confirmPassword === "") {
+    confirmPasswordError.textContent = "please confirm your password";
+    valid = false;
+  } else if (password !== confirmPassword) {
+    confirmPasswordError.textContent = "password doesn't match";
+    valid = false;
+  }
+
+  if (valid) 
+  {
+    alert("You have created account susscefully");
+  }
+});
+</script>
+</html>
