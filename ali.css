@@ -59,30 +59,6 @@ ul.navbar {
     cursor:grab; 
     transform: scale(1.3);
 }
-/* .dropdown{
-    position: relative;
-}
-.dropdown-menu {
-    display: none;
-    border-radius: 10%;
-    position: absolute;
-    list-style: none;
-    background-color: white;
-    padding: 10px 0;
-    z-index: 1;
-    margin: 0 -31px;
-}
-.dropdown:hover .dropdown-menu,
-.dropdown-menu:hover {
-    display: block;
-}
-.dropdown-menu li {
-    padding: 5px 15px;
-}
-.dropdown-menu li a {
-    color: black;
-    text-decoration: none;
-} */
 /* end of header */
 /* start of home */
 .home{
@@ -866,6 +842,594 @@ table:hover{
         width: 30%;
     }
 } */
+@media  (min-width: 1245px) and (max-width: 1500px) {
+    .cont{
+        gap: 0px;
+        padding: 1.6% 0.7%;
+    }
+    ul.navbar{
+        padding-right: 12%;
+        font-size: 14px;
+        gap: 65px;
+    }
+    .logo{
+        font-size: 42px;
+    }
+    .flage{
+        width: 4%;
+        height: 24%;
+        padding-top: 4%;
+    }
+    .parenta, .parentc, .parenti{
+        grid-template-columns: repeat(2,195px );
+        grid-template-rows: repeat(5, 87px);
+        margin-top: 94px;
+        align-items: center;
+        border-radius: 25px;
+    }
+    .cap, .ist, .ank{
+        font-size: 36px;
+    }
+    .img1cap, .img2cap, .img1ank, .img2ank, .img1ist, .img2ist {
+        height: 160px;
+        border-radius: 12px;
+    }
+    .img3ank, .img3cap, .img3ist {
+        height: 172px;
+        border-radius: 24px;
+    }
+    .home{
+        gap: 12px;
+    }
+    .capinf{
+        margin-top: 43px;
+    }
+    .circle{
+        width: 425px;
+        height: 385px;
+        margin-top: -518px;
+        margin-left: -196px;
+        font-size: 71px;
+    }
+    .cap1{
+        font-size: 14px;
+        width: 91%;
+        padding: 13px;
+        margin-left: 2%;
+        margin-top: -523px;
+        word-spacing: 0px;
+        letter-spacing: 0px;
+    }
+    .highlights-container {
+        margin-top: 10px;
+        margin-left: 26%;
+        width: 67%;
+        padding: 11px;
+        height: 200px;
+        font-size: 18px;
+    }
+    .highlights {
+        font-size: 17px;
+        padding: 0px;
+    }
+    .book {
+        margin-left: 36%;
+        width: 26%;
+        margin-top: 26px;
+    }
+    table{
+        height: 162px;
+    }
+    th,td{
+        padding: 13px;
+        font-size: 64%;
+    }
+    .istinf{
+        margin-top: -131px;
+    }
+    .ist1 {
+        width: 35%;
+        font-size: 16px;
+        margin-left: 5px;
+        margin-top: 11px;
+        padding: 18px;
+        height: fit-content;
+    }
+    .circle2{
+        width: 451px;
+        height: 477px;
+        font-size: 78px;
+        margin-top: -949px;
+    }
+    .highlights2 {
+        font-size: 20px;
+        padding: 10px;
+    }
+    .highlights-container2 {
+       margin-left: 46%;
+        width: 40%;
+        margin-top: -267px;
+        height: 223px;
+    }
+    .book2{
+        margin-left: 48%;
+        width: 4%;
+        margin-top: 52px;
+        padding: 0px;
+    }
+    .ank1{
+        margin-top: -532px;
+        margin-left: 1%;
+        width: 91%;
+        font-size: 13px;
+        padding: 11px;
+    }
+    .circle3{
+        width: 425px;
+        height: 385px;
+        margin-top: -518px;
+        margin-left: -196px;
+        font-size: 71px;
+    }
+    .highlights3 {
+        font-size: 18px;
+        padding: 4px;
+    }
+    .highlights-container3{
+        margin-top: 62px;
+        margin-left: 33%;
+        width: 54%;
+        height: 215px;
+    }
+    .book3{
+        margin-top: 63px;
+        margin-left: 25%;
+        width: 30%;
+        padding: 0px;
+        height: 234px;
+    }
+}
+@media  (min-width: 1209px) and (max-width: 1244px) {
+     .cont{
+        gap: 0px;
+        padding: 1.6% 0.7%;
+    }
+    ul.navbar{
+        padding-right: 12%;
+        font-size: 14px;
+        gap: 65px;
+    }
+    .logo{
+        font-size: 42px;
+    }
+    .flage{
+        width: 4%;
+        height: 22%;
+        padding-top: 5%;
+    }
+    .parenta, .parentc, .parenti{
+         grid-template-columns: repeat(2,195px );
+        grid-template-rows: repeat(5, 87px);
+        margin-top: 94px;
+        align-items: center;
+        border-radius: 25px;
+    }
+    .cap, .ist, .ank{
+        font-size: 36px;
+    }
+    .img1cap, .img2cap, .img1ank, .img2ank, .img1ist, .img2ist {
+        height: 160px;
+        border-radius: 12px;
+    }
+    .img3ank, .img3cap, .img3ist {
+        height: 172px;
+        border-radius: 24px;
+    }
+    .home{
+        gap: 12px;
+    }
+    .capinf{
+        margin-top: 47px;
+    }
+    .circle{
+        width: 425px;
+        height: 385px;
+        margin-top: -518px;
+        margin-left: -196px;
+        font-size: 71px;
+    }
+    .cap1{
+        font-size: 14px;
+        width: 91%;
+        padding: 13px;
+        margin-left: 2%;
+        margin-top: -523px;
+        word-spacing: 0px;
+        letter-spacing: 0px;
+    }
+    .highlights-container {
+        margin-top: 10px;
+        margin-left: 26%;
+        width: 67%;
+        padding: 11px;
+        height: 200px;
+        font-size: 18px;
+    }
+    .highlights {
+        font-size: 17px;
+        padding: 0px;
+    }
+    .book {
+        margin-left: 36%;
+        width: 26%;
+        margin-top: 26px;
+    }
+    table{
+        height: 162px;
+    }
+    th,td{
+        padding: 13px;
+        font-size: 64%;
+    }
+    .istinf{
+        margin-top: -128px;
+    }
+    .ist1 {
+        width: 35%;
+        font-size: 16px;
+        margin-left: 5px;
+        margin-top: 11px;
+        padding: 18px;
+        height: fit-content;
+    }
+    .circle2{
+        width: 451px;
+        height: 477px;
+        font-size: 78px;
+        margin-top: -949px;
+    }
+    .highlights2 {
+        font-size: 20px;
+        padding: 10px;
+    }
+    .highlights-container2 {
+        margin-left: 40%;
+        width: 52%;
+        margin-top: -340px;
+        height: 223px;
+    }
+    .book2{
+        margin-left: 48%;
+        width: 4%;
+        margin-top: 52px;
+        padding: 0px;
+    }
+    .ank1{
+        margin-top: -532px;
+        margin-left: 1%;
+        width: 91%;
+        font-size: 13px;
+        padding: 11px;
+    }
+    .circle3{
+        width: 425px;
+        height: 385px;
+        margin-top: -518px;
+        margin-left: -196px;
+        font-size: 71px;
+    }
+    .highlights3 {
+        font-size: 18px;
+        padding: 4px;
+    }
+    .highlights-container3{
+        margin-top: 62px;
+        margin-left: 33%;
+        width: 54%;
+        height: 215px;
+    }
+    .book3{
+        margin-top: 63px;
+        margin-left: 25%;
+        width: 30%;
+        padding: 0px;
+        height: 234px;
+    }
+}
+@media  (min-width: 1194px) and (max-width: 1208px) {
+     .cont{
+        gap: 0px;
+        padding: 1.6% 0.7%;
+    }
+    ul.navbar{
+        padding-right: 12%;
+        font-size: 14px;
+        gap: 65px;
+    }
+    .logo{
+        font-size: 42px;
+    }
+    .flage{
+        width: 5%;
+        height: 27%;
+        padding-top: 5%;
+    }
+    .parenta, .parentc, .parenti{
+          grid-template-columns: repeat(2,195px );
+        grid-template-rows: repeat(5, 87px);
+        margin-top: 94px;
+        align-items: center;
+        border-radius: 25px;
+    }
+    .cap, .ist, .ank{
+        font-size: 36px;
+    }
+    .img1cap, .img2cap, .img1ank, .img2ank, .img1ist, .img2ist {
+        height: 160px;
+        border-radius: 12px;
+    }
+    .img3ank, .img3cap, .img3ist {
+        height: 195px;
+        border-radius: 24px;
+    }
+    .home{
+        gap: 12px;
+    }
+    .capinf{
+        margin-top: 50px;
+    }
+    .circle{
+        width: 425px;
+        height: 385px;
+        margin-top: -518px;
+        margin-left: -196px;
+        font-size: 71px;
+    }
+    .cap1{
+        font-size: 14px;
+        width: 91%;
+        padding: 13px;
+        margin-left: 2%;
+        margin-top: -523px;
+        word-spacing: 0px;
+        letter-spacing: 0px;
+    }
+    .highlights-container {
+        margin-top: 10px;
+        margin-left: 26%;
+        width: 67%;
+        padding: 11px;
+        height: 200px;
+        font-size: 18px;
+    }
+    .highlights {
+        font-size: 17px;
+        padding: 0px;
+    }
+    .book {
+        margin-left: 36%;
+        width: 26%;
+        margin-top: 26px;
+    }
+    table{
+        height: 162px;
+    }
+    th,td{
+        padding: 13px;
+        font-size: 64%;
+    }
+    .istinf{
+        margin-top: -147px;
+    }
+    .ist1 {
+        width: 35%;
+        font-size: 16px;
+        margin-left: 5px;
+        margin-top: 11px;
+        padding: 18px;
+        height: fit-content;
+    }
+    .circle2{
+        width: 451px;
+        height: 477px;
+        font-size: 78px;
+        margin-top: -949px;
+    }
+    .highlights2 {
+        font-size: 20px;
+        padding: 10px;
+    }
+    .highlights-container2 {
+        margin-left: 40%;
+        width: 52%;
+        margin-top: -340px;
+        height: 223px;
+    }
+    .book2{
+        margin-left: 48%;
+        width: 4%;
+        margin-top: 52px;
+        padding: 0px;
+    }
+    .ank1{
+        margin-top: -532px;
+        margin-left: 1%;
+        width: 91%;
+        font-size: 13px;
+        padding: 11px;
+    }
+    .circle3{
+        width: 425px;
+        height: 385px;
+        margin-top: -518px;
+        margin-left: -196px;
+        font-size: 71px;
+    }
+    .highlights3 {
+        font-size: 18px;
+        padding: 4px;
+    }
+    .highlights-container3{
+        margin-top: 62px;
+        margin-left: 33%;
+        width: 54%;
+        height: 215px;
+    }
+    .book3{
+        margin-top: 63px;
+        margin-left: 25%;
+        width: 30%;
+        padding: 0px;
+        height: 234px;
+    }
+}
+@media  (min-width: 1101px) and (max-width: 1195px) {
+     .cont{
+        gap: 0px;
+        padding: 1.6% 0.7%;
+    }
+    ul.navbar{
+        padding-right: 12%;
+        font-size: 14px;
+        gap: 65px;
+    }
+    .logo{
+        font-size: 42px;
+    }
+    .flage{
+        width: 5%;
+        height: 27%;
+        padding-top: 5%;
+    }
+    .parenta, .parentc, .parenti{
+         grid-template-columns: repeat(2,169px );
+        grid-template-rows: repeat(5, 87px);
+        margin-top: 94px;
+        align-items: center;
+        border-radius: 25px;
+    }
+    .cap, .ist, .ank{
+        font-size: 36px;
+    }
+    .img1cap, .img2cap, .img1ank, .img2ank, .img1ist, .img2ist {
+        height: 160px;
+        border-radius: 12px;
+    }
+    .img3ank, .img3cap, .img3ist {
+        height: 175px;
+        border-radius: 24px;
+    }
+    .home{
+        gap: 12px;
+    }
+    .capinf{
+        margin-top: 48px;
+    }
+    .circle{
+        width: 425px;
+        height: 385px;
+        margin-top: -518px;
+        margin-left: -196px;
+        font-size: 71px;
+    }
+    .cap1{
+        font-size: 14px;
+        width: 91%;
+        padding: 13px;
+        margin-left: 2%;
+        margin-top: -523px;
+        word-spacing: 0px;
+        letter-spacing: 0px;
+    }
+    .highlights-container {
+        margin-top: 10px;
+        margin-left: 26%;
+        width: 67%;
+        padding: 11px;
+        height: 200px;
+        font-size: 18px;
+    }
+    .highlights {
+        font-size: 17px;
+        padding: 0px;
+    }
+    .book {
+        margin-left: 36%;
+        width: 26%;
+        margin-top: 26px;
+    }
+    table{
+        height: 162px;
+    }
+    th,td{
+        padding: 13px;
+        font-size: 64%;
+    }
+    .istinf{
+        margin-top: -144px;
+    }
+    .ist1 {
+        width: 35%;
+        font-size: 16px;
+        margin-left: 5px;
+        margin-top: 11px;
+        padding: 18px;
+        height: fit-content;
+    }
+    .circle2{
+        width: 451px;
+        height: 477px;
+        font-size: 78px;
+        margin-top: -949px;
+    }
+    .highlights2 {
+        font-size: 20px;
+        padding: 10px;
+    }
+    .highlights-container2 {
+        margin-left: 40%;
+        width: 52%;
+        margin-top: -340px;
+        height: 223px;
+    }
+    .book2{
+        margin-left: 48%;
+        width: 4%;
+        margin-top: 52px;
+        padding: 0px;
+    }
+    .ank1{
+        margin-top: -532px;
+        margin-left: 1%;
+        width: 91%;
+        font-size: 13px;
+        padding: 11px;
+    }
+    .circle3{
+        width: 425px;
+        height: 385px;
+        margin-top: -518px;
+        margin-left: -196px;
+        font-size: 71px;
+    }
+    .highlights3 {
+        font-size: 18px;
+        padding: 4px;
+    }
+    .highlights-container3{
+        margin-top: 62px;
+        margin-left: 33%;
+        width: 54%;
+        height: 215px;
+    }
+    .book3{
+        margin-top: 63px;
+        margin-left: 25%;
+        width: 30%;
+        padding: 0px;
+        height: 234px;
+    }
+}
 @media  (min-width: 1000px) and (max-width: 1100px) {
     .cont{
         gap: 0px;
@@ -895,18 +1459,18 @@ table:hover{
         font-size: 36px;
     }
     .img1cap, .img2cap, .img1ank, .img2ank, .img1ist, .img2ist {
-        height: 160px;
+        height: 143px;
         border-radius: 12px;
     }
     .img3ank, .img3cap, .img3ist {
-        height: 195px;
+        height:160px;
         border-radius: 24px;
     }
     .home{
         gap: 12px;
     }
     .capinf{
-        margin-top: 76px;
+        margin-top: 83px;
     }
     .circle{
         width: 425px;
@@ -1042,12 +1606,13 @@ table:hover{
         font-size: 36px;
     }
     .img1cap, .img2cap, .img1ank, .img2ank, .img1ist, .img2ist {
-        height: 160px;
+        height: 147px;
         border-radius: 12px;
     }
     .img3ank, .img3cap, .img3ist {
-        height: 195px;
+        height: 166px;
         border-radius: 24px;
+        margin: 0px 2px 2px 1px;
     }
     .home{
         gap: 12px;
@@ -1189,12 +1754,13 @@ table:hover{
         font-size: 36px;
     }
     .img1cap, .img2cap, .img1ank, .img2ank, .img1ist, .img2ist {
-        height: 160px;
+        height: 154px;
         border-radius: 12px;
     }
     .img3ank, .img3cap, .img3ist {
-        height: 195px;
+        height: 161px;
         border-radius: 24px;
+        margin: 0px 2px 2px 1px;
     }
     .home{
         gap: 12px;
@@ -1336,12 +1902,13 @@ table:hover{
         font-size: 36px;
     }
     .img1cap, .img2cap, .img1ank, .img2ank, .img1ist, .img2ist {
-        height: 160px;
+        height: 144px;
         border-radius: 12px;
     }
     .img3ank, .img3cap, .img3ist {
-        height: 195px;
-        border-radius: 24px;
+        height: 167px;
+        border-radius: 18px;
+        margin: 0px 2px 2px 1px;
     }
     .home{
         gap: 12px;
@@ -1483,12 +2050,13 @@ table:hover{
         font-size: 36px;
     }
     .img1cap, .img2cap, .img1ank, .img2ank, .img1ist, .img2ist {
-        height: 160px;
+        height: 144px;
         border-radius: 12px;
     }
     .img3ank, .img3cap, .img3ist {
-        height: 195px;
-        border-radius: 24px;
+        height: 167px;
+        border-radius: 18px;
+        margin: 0px 2px 2px 1px;
     }
     .home{
         gap: 12px;
@@ -1632,12 +2200,13 @@ table:hover{
         font-size: 36px;
     }
     .img1cap, .img2cap, .img1ank, .img2ank, .img1ist, .img2ist {
-        height: 160px;
+        height: 148px;
         border-radius: 12px;
     }
     .img3ank, .img3cap, .img3ist {
-        height: 195px;
+        height: 164px;
         border-radius: 24px;
+        margin: 0px 2px 2px 1px;
     }
     .home{
         gap: 12px;
@@ -1780,13 +2349,14 @@ table:hover{
     .cap, .ist, .ank{
         font-size: 36px;
     }
-    .img1cap, .img2cap, .img1ank, .img2ank, .img1ist, .img2ist {
-        height: 160px;
+     .img1cap, .img2cap, .img1ank, .img2ank, .img1ist, .img2ist {
+        height: 148px;
         border-radius: 12px;
     }
     .img3ank, .img3cap, .img3ist {
-        height: 195px;
+        height: 164px;
         border-radius: 24px;
+        margin: 0px 2px 2px 1px;
     }
     .home{
         gap: 12px;
@@ -1930,12 +2500,13 @@ table:hover{
         font-size: 36px;
     }
     .img1cap, .img2cap, .img1ank, .img2ank, .img1ist, .img2ist {
-        height: 160px;
+        height: 148px;
         border-radius: 12px;
     }
     .img3ank, .img3cap, .img3ist {
-        height: 195px;
+        height: 164px;
         border-radius: 24px;
+        margin: 0px 2px 2px 1px;
     }
     .home{
         gap: 12px;
@@ -2079,12 +2650,13 @@ table:hover{
         font-size: 36px;
     }
     .img1cap, .img2cap, .img1ank, .img2ank, .img1ist, .img2ist {
-        height: 160px;
+        height: 148px;
         border-radius: 12px;
     }
     .img3ank, .img3cap, .img3ist {
-        height: 195px;
+        height: 164px;
         border-radius: 24px;
+        margin: 0px 2px 2px 1px;
     }
     .home{
         gap: 12px;
@@ -2227,13 +2799,14 @@ table:hover{
     .cap, .ist, .ank{
         font-size: 36px;
     }
-    .img1cap, .img2cap, .img1ank, .img2ank, .img1ist, .img2ist {
-        height: 160px;
+     .img1cap, .img2cap, .img1ank, .img2ank, .img1ist, .img2ist {
+        height: 148px;
         border-radius: 12px;
     }
     .img3ank, .img3cap, .img3ist {
-        height: 195px;
+        height: 164px;
         border-radius: 24px;
+        margin: 0px 2px 2px 1px;
     }
     .home{
         gap: 12px;
@@ -2377,12 +2950,13 @@ table:hover{
         font-size: 36px;
     }
     .img1cap, .img2cap, .img1ank, .img2ank, .img1ist, .img2ist {
-        height: 160px;
+        height: 136px;
         border-radius: 12px;
     }
     .img3ank, .img3cap, .img3ist {
-        height: 195px;
+        height: 146px;
         border-radius: 24px;
+        margin: 0px 2px 2px 1px;
     }
     .home{
         gap: 12px;
@@ -2525,13 +3099,14 @@ table:hover{
     .cap, .ist, .ank{
         font-size: 36px;
     }
-    .img1cap, .img2cap, .img1ank, .img2ank, .img1ist, .img2ist {
-        height: 160px;
+     .img1cap, .img2cap, .img1ank, .img2ank, .img1ist, .img2ist {
+        height:85px;
         border-radius: 12px;
     }
     .img3ank, .img3cap, .img3ist {
-        height: 195px;
+        height: 121px;
         border-radius: 24px;
+        margin: 0px 2px 2px 1px;
     }
     .home{
         gap: 12px;
@@ -2674,13 +3249,14 @@ table:hover{
     .cap, .ist, .ank{
         font-size: 36px;
     }
-    .img1cap, .img2cap, .img1ank, .img2ank, .img1ist, .img2ist {
-        height: 160px;
+     .img1cap, .img2cap, .img1ank, .img2ank, .img1ist, .img2ist {
+        height: 101px;
         border-radius: 12px;
     }
     .img3ank, .img3cap, .img3ist {
-        height: 195px;
+        height: 134px;
         border-radius: 24px;
+        margin: 0px 2px 2px 1px;
     }
     .home{
         gap: 12px;
