@@ -3,8 +3,9 @@
     <head>
         <meta charset="UTF-8">
         <title>Tripnest | main</title>
-        <link rel="stylesheet" href="css.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="css.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     </head>
     <body>
         <div class="header">
@@ -15,176 +16,142 @@
                 <input type="text" id="searchInput" class="searchInput" placeholder="Search for a country..." >
             </div> 
             <div>
-            <a href="login-html.html" class="main-login">Login</a>
-            <a href="feedback.html" class="feedback">Write feedback</a>
+            <button id="toggle-theme">
+                <i id="icon" class="fas fa-moon"></i>
+            </button>    
+            <a href="login-html.html" class="main-login"><i class="fa-solid fa-user"></i></a>
+            <a href="feedback.html" class="main-feedback"><i class="fas fa-comments"></i></a>
             </div>
         </div>       
         <div class="programs">
             <!--Egypt-->
-            <div class="egypt">
-                <div class="egypt-content">
-                    <div class="egypt-text">
+            <div class="card">
+                <div class="content">
+                    <div class="text">
                         <h2>Egypt</h2>
                         <p>Explore the ancient wonders of Egypt, including the 
                            Pyramids of Giza, the Sphinx, the Grand Egyptian Museum 
                            and many awesome things in all it's charming governates.</p>
                     </div>
-                    <div class="egypt-img-container">
-                        <img src="egypt-1.jfif" alt="Egypt" class="egypt-image">
+                    <div class="img-container">
+                        <img src="egypt-1.jfif" alt="Egypt" class="country-image">
                     </div>
                 </div>
                 <a href="egypt.html" class="learnmore-button">Learn More</a>
             </div>
             <!--Japan-->
-            <div class="japan">
-                <div class="japan-content">
-                    <div class="japan-text">
+            <div class="card">
+                <div class="content">
+                    <div class="text">
                         <h2>Japan "Nippon"</h2>
                         <p>Experience the unique blend of tradition and modernity in Japan, 
                            from the bustling streets of Tokyo and its towering skyscrapers, 
                            to the serene temples of Kyoto, the breathtaking Mount Fuji, 
                            and the beautiful cherry blossoms that bloom every spring.</p>
                     </div>
-                    <div class="japan-img-container">
-                        <img src="japan-1.jpg" alt="Japan" class="japan-image-b">
+                    <div class="img-container">
+                        <img src="japan-1.jpg" alt="Japan" class="country-image">
                     </div>
                 </div>
                 <a href="japan.html" class="learnmore-button">Learn More</a>
             </div>
             <!--Turkey-->
-            <div class="turkey">
-                <div class="turkey-content">
-                    <div class="turkey-text">
+            <div class="card">
+                <div class="content">
+                    <div class="text">
                         <h2>Turkey</h2>
                         <p>Discover the beauty of Turkey, from the historic city of 
                             Istanbul and its iconic Hagia Sophia, to the stunning 
                             landscapes of Cappadocia, the beaches of Antalya, and 
                             the ancient ruins of Ephesus.</p>
                     </div>
-                    <div class="turkey-img-container">
-                        <img src="turkey-1.jfif" alt="Turkey" class="turkey-image">
+                    <div class="img-container">
+                        <img src="turkey-1.jfif" alt="Turkey" class="country-image">
                     </div>
                 </div>
                 <a href="turkey.html" class="learnmore-button">Learn More</a>
             </div>
             <!--Greece-->
-            <div class="greece">
-                <div class="greece-content">
-                    <div class="greece-text">
+            <div class="card">
+                <div class="content">
+                    <div class="text">
                         <h2>Greece</h2>
                         <p>Immerse yourself in the history and beauty of Greece, 
                             from the ancient ruins of Athens and the Acropolis, 
                             to the stunning islands of Santorini and Mykonos, with
                             their whitewashed buildings and crystal-clear waters.</p>
                     </div>
-                    <div class="greece-img-container">
-                        <img src="greece-1.jfif" alt="greece" class="greece-image">
+                    <div class="img-container">
+                        <img src="greece-1.jfif" alt="greece" class="country-image">
                     </div>
                 </div>
                 <a href="greece.html" class="learnmore-button">Learn More</a>
             </div>
             <!--Italy-->
-            <div class="italy">
-                <div class="italy-content">
-                    <div class="italy-text">
+            <div class="card">
+                <div class="content">
+                    <div class="text">
                         <h2>Italy</h2>
                         <p>Experience the charm of Italy, from the historic ruins of Rome 
                            and the Colosseum, to the romantic canals of Venice, the art 
                            and architecture of Florence, and the breathtaking Amalfi Coast.</p>
                     </div>
-                    <div class="italy-img-container">
-                        <img src="italy-1.jfif" alt="italy" class="italy-image">
+                    <div class="img-container">
+                        <img src="italy-1.jfif" alt="italy" class="country-image">
                     </div>
                 </div>
                 <a href="italy.html" class="learnmore-button">Learn More</a>
             </div>
             <!--USA-->
-            <div class="usa">
-                <div class="usa-content">
-                    <div class="usa-text">
+            <div class="card">
+                <div class="content">
+                    <div class="text">
                         <h2>USA</h2>
                         <p>Explore the diverse landscapes and cultures of the USA, from the 
                            iconic Statue of Liberty in New York, the vibrant streets of Los Angeles, 
                            to the natural wonders of the Grand Canyon and Yellowstone National Park.</p>
                     </div>
-                    <div class="usa-img-container">
-                        <img src="usa-1.jfif" alt="USA" class="usa-image">
+                    <div class="img-container">
+                        <img src="usa-1.jfif" alt="USA" class="country-image">
                     </div>
                 </div>
                 <a href="usa.html" class="learnmore-button">Learn More</a>
             </div>
             <!--France-->
-            <div class="russia">
-                <div class="russia-content">
-                    <div class="russia-text">
-                        <h2>Russia</h2>
-                        <p>Discover the vast beauty of Russia, from the cultural treasures of 
-                           Moscow and Saint Petersburg, including the Kremlin and the Hermitage, 
-                           to the frozen landscapes of Siberia and the scenic Trans-Siberian Railway.</p>
+            <div class="card">
+                <div class="content">
+                    <div class="text">
+                        <h2>france</h2>
+                        <p>Immerse yourself in the romance and history of France, from the iconic Eiffel 
+                            Tower in Paris to the charming countryside dotted with vineyards and medieval villages. 
+                            Experience the exquisite art, cuisine, and timeless culture that make France a perennial 
+                            favorite among travelers.</p>
                     </div>
-                    <div class="russia-img-container">
-                        <img src="russian-1.jfif" alt="Russia" class="russia-image">
+                    <div class="img-container">
+                        <img src="paris.jpg" alt="france" class="country-image">
                     </div>
                 </div>
-                <a href="russia.html" class="learnmore-button">Learn More</a>
+                <a href="france.html" class="learnmore-button">Learn More</a>
             </div>
             <!--Spain-->
-            <div class="spain">
-                <div class="spain-content">
-                    <div class="spain-text">
+            <div class="card">
+                <div class="content">
+                    <div class="text">
                         <h2>Spain</h2>
                         <p>Experience the vibrant culture of Spain, from the lively streets of 
                            Barcelona and the architectural wonders of Gaudí, to the historic cities 
                            of Madrid and Seville, and the sunny beaches of Costa del Sol.</p>
                     </div>
-                    <div class="spain-img-container">
-                        <img src="spain-1.jfif" alt="Spain" class="spain-image">
+                    <div class="img-container">
+                        <img src="spain-1.jfif" alt="Spain" class="country-image">
                     </div>
                 </div>
-                <a href="spain.html" class="learnmore-button">Learn More</a>
+                <a href="Eldosoky.html" class="learnmore-button">Learn More</a>
             </div>
         </div>
         <footer>
             <p class="footer-text">© 2025 <a href="main.html" class="footer-link">Tripnest</a>. All rights reserved.</p>
         </footer>
     </body>
-    <script>
-        function setupHoverImage(imageSelector, hoverImageSrc, originalImageSrc) {
-            const image = document.querySelector(imageSelector);
-    
-            image.addEventListener('mouseover', function() {
-                image.src = hoverImageSrc; // لما يعمل Hover يغير الصورة
-            });
-    
-            image.addEventListener('mouseout', function() {
-                image.src = originalImageSrc; // لما يبعد يرجع للصورة الأصلية
-            });
-        }
-    
-        setupHoverImage('.egypt-image', 'egypt-2.jfif', 'egypt-3.jfif'); 
-        setupHoverImage('.turkey-image', 'turkey-2.jfif', 'turkey-3.jfif'); 
-        setupHoverImage('.greece-image', 'greece-2.jfif', 'greece-3.jfif'); 
-        setupHoverImage('.italy-image', 'italy-2.jfif', 'italy-3.jfif');
-        setupHoverImage('.usa-image', 'usa-2.jfif', 'usa-3.jfif');
-        setupHoverImage('.russia-image', 'russia-2.jfif', 'russia-3.jfif');
-        setupHoverImage('.spain-image', 'spain-2.jfif', 'spain-3.jfif');
-        setupHoverImage('.japan-image-b', 'japan-2.webp', 'japan-3.jfif'); 
-    </script>
-    <script>
-        const searchInput = document.getElementById('searchInput');
-        const allCountries = document.querySelectorAll('.programs > div');
-    
-        searchInput.addEventListener('keyup', function () {
-            const filter = searchInput.value.toLowerCase();
-    
-            allCountries.forEach(function (country) {
-                const text = country.innerText.toLowerCase();
-                if (text.includes(filter)) {
-                    country.style.display = 'block'; // يظهره
-                } else {
-                    country.style.display = 'none'; // يخفيه
-                }
-            });
-        });
-    </script>    
+    <script src="javascript.js"></script>    
 </html> 

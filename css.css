@@ -34,7 +34,6 @@ body, html                                                  /* japan, login, cre
   align-items: center;
   flex-direction: row;
   margin: 0%;
-  padding: 1.5%;
   justify-content: space-between;
   position: relative;
 }
@@ -46,6 +45,7 @@ footer                                                      /* japan, login, cre
   text-align: center;
   padding: 20px;
   width: 100%;
+  bottom: 0;
 }
 
 .logo-image                                                 /* japan, login, create-account, main */
@@ -121,10 +121,32 @@ footer                                                      /* japan, login, cre
   border: 2px solid;
 }
 
-.create_account, .login-link
-{
-  text-decoration: none;
-  font-weight: bold;
+#toggle-theme {                             /*dark mode main*/
+  background: none;
+  border: none;
+  position: relative;
+  font-size: 29px;
+  cursor: pointer;
+  color: inherit;
+  transition: transform 0.3s;
+}
+
+#toggle-theme:hover {                      /*dark mode main*/
+  transform: rotate(20deg);
+}
+
+body.dark {                                /*dark mode main*/
+  background-color: rgb(8 7 27);
+  color: white;
+
+}
+
+body.dark .card, body.dark .header, body.dark footer  {              /*dark mode main*/
+  background-color: rgb(31 10 61);
+}
+
+body.dark .text {                               /*dark mode main*/
+  color: white;
 }
 
 .feedback-message
@@ -194,24 +216,19 @@ footer                                                      /* japan, login, cre
     border: none;
 }
 
-.main-login, .feedback 
+.main-login, .main-feedback 
 {
-  background-color: white;
-  color: #1451c2;
-  border: 2px solid #1451c2;
-  font-weight: bold;
-  border-radius: 50px;
+  background: none;
   padding: 10px 20px;
   cursor: pointer;
-  font-size: 16px;
   transition: all 0.3s ease;
-  text-align: center;
-  text-decoration: none;
-  grid-row: inherit;
   border: none;
+  position: relative;
+  font-size: 29px;
+  color: white;
 }
 
-.egypt, .turkey, .greece, .italy, .japan, .russia, .usa, .spain
+.card                              /*egypt, turkey,  greece, italy, japan, france, usa, spain */
 {
   background-color: white;
   padding: 20px;
@@ -222,8 +239,7 @@ footer                                                      /* japan, login, cre
   transition: all 0.3s ease;
 }
 
-.egypt-content, .turkey-content, .greece-content, .italy-content,
-.japan-content, .russia-content, .usa-content, .spain-content  
+.content                 /*egypt, turkey,  greece, italy, japan, france, usa, spain */
 { 
   display: flex;
   justify-content: space-between;
@@ -231,8 +247,7 @@ footer                                                      /* japan, login, cre
   width: 100%;
 } 
 
-.egypt-text, .turkey-text, .greece-text, .italy-text,
-.japan-text, .russia-text, .usa-text, .spain-text
+.text                         /*egypt, turkey,  greece, italy, japan, france, usa, spain */
 {
   flex: 1;
   padding-left: 20px;
@@ -241,15 +256,13 @@ footer                                                      /* japan, login, cre
   color: #02132b;
 }
 
-.egypt-img-container, .turkey-img-container, .greece-img-container, .italy-img-container, 
-.japan-img-container, .usa-img-container, .spain-img-container, .russia-img-container
+.img-container                                /*egypt, turkey,  greece, italy, japan, france, usa, spain */
 {
   flex: 1;
   text-align: right;
 }
 
-.egypt-image, .turkey-image, .greece-image, .italy-image, 
-.japan-image-b, .spain-image, .russia-image, .usa-image
+.country-image                                /*egypt, turkey,  greece, italy, japan, france, usa, spain */
 {
   flex: 1;
   width: 280px;
@@ -283,8 +296,8 @@ footer                                                      /* japan, login, cre
 @media screen and (max-width: 768px) 
 {
   .egypt-content, .turkey-content, .greece-content, .italy-content,
-  .japan-content, .russia-content, .usa-content, .spain-content,
-  .egypt, .turkey, .greece, .italy, .japan, .russia, .usa, .spain
+  .japan-content, .france-content, .usa-content, .spain-content,
+  .card
   { 
     display: flex;
     justify-content: space-between;
@@ -685,14 +698,7 @@ video
 /* ________________________________________________________________________________________________________________________________ */
 /* book */
 
-.tokyo-tours, .osaka-tours, .hiroshima-tours,
-.cairo-tours, .alexandria-tours, .aswan-tours, .sharm-tours,
-.istanbul-tours, .ankara-tours, .cappadocia-tours, 
-.paris-tours, .nice-tours, .lyon-tours, 
-.rome-tours, .venice-tours, .florence-tours, 
-.barcelona-tours, .madrid-tours, .seville-tours,
-.athens-tours, .santorini-tours, .mykonos-tours,
-.newyork-tours, .losangeles-tours, .miami-tours  
+ .citi-tours  
 {
   display: flex;
   flex-wrap: wrap;
@@ -720,14 +726,7 @@ video
   margin-bottom: 20px;
 }
 
-.japan-content h2, .osaka-tours h2, .hiroshima-tours h2,  
-.cairo-tours h2, .alexandria-tours h2, .aswan-tours h2, .sharm-tours h2,
-.istanbul-tours h2, .ankara-tours h2, .cappadocia-tours h2,
-.paris-tours h2, .nice-tours h2, .lyon-tours h2, 
-.rome-tours h2, .venice-tours h2, .florence-tours h2, 
-.barcelona-tours h2, .madrid-tours h2, .seville-tours h2,
-.athens-tours h2, .santorini-tours h2, .mykonos-tours h2,
-.newyork-tours h2, .losangeles-tours h2, .miami-tours h2
+ .citi-tours h2
 {
   width: 100%;
   text-align: center;
